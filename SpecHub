@@ -1,0 +1,2512 @@
+--[[                                        
+  ___ _ __   ___  ___ 
+/ __|  _ \ / _ \/ __|
+\__ \ |_) |  __/ (__ 
+|___/  __/ \___|\___|
+     | |              
+     |_|              
+]]
+
+local SpecR = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local Close = Instance.new("TextButton")
+local Hide = Instance.new("TextButton")
+local ViewFrame = Instance.new("Frame")
+local SeperationBar = Instance.new("Frame")
+local Welcome = Instance.new("TextButton")
+local Scripts = Instance.new("TextButton")
+local Hubs = Instance.new("TextButton")
+local Theme = Instance.new("TextButton")
+local Settings = Instance.new("TextButton")
+local Credits = Instance.new("TextButton")
+local WelcomePage = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local Description2 = Instance.new("TextLabel")
+local Description1 = Instance.new("TextLabel")
+local GetStarted = Instance.new("TextButton")
+local ScriptsPage = Instance.new("Frame")
+local Achromatic = Instance.new("TextButton")
+local Title_2 = Instance.new("TextLabel")
+local Title_3 = Instance.new("TextLabel")
+local FESniper = Instance.new("TextButton")
+local FEBrickCar = Instance.new("TextButton")
+local FEStand = Instance.new("TextButton")
+local NullwareHub = Instance.new("TextButton")
+local BeFurry = Instance.new("TextButton")
+local SuperCar = Instance.new("TextButton")
+local InfYeild = Instance.new("TextButton")
+local Title_4 = Instance.new("TextLabel")
+local SkateBoard = Instance.new("TextButton")
+local Title_5 = Instance.new("TextLabel")
+local RagdollGUI = Instance.new("TextButton")
+local FencingGUI = Instance.new("TextButton")
+local ReplicationUI = Instance.new("TextButton")
+local DarkWare = Instance.new("TextButton")
+local SpinHats = Instance.new("TextButton")
+local Title_6 = Instance.new("TextLabel")
+local Headless = Instance.new("TextButton")
+local Memeus = Instance.new("TextButton")
+local KrystalDances = Instance.new("TextButton")
+local Title_7 = Instance.new("TextLabel")
+local NetBypass = Instance.new("TextButton")
+local VRScript = Instance.new("TextButton")
+local Dex = Instance.new("TextButton")
+local GrabTool = Instance.new("TextButton")
+local HubsPage = Instance.new("Frame")
+local Title_8 = Instance.new("TextLabel")
+local FEHub = Instance.new("TextButton")
+local ChatBypass = Instance.new("TextButton")
+local ChatHaxV2 = Instance.new("TextButton")
+local NullwareHub2 = Instance.new("TextButton")
+local _1017xsScriptHub = Instance.new("TextButton")
+local FEPose = Instance.new("TextButton")
+local Energize = Instance.new("TextButton")
+local xxHub = Instance.new("TextButton")
+local Orhub = Instance.new("TextButton")
+local Title2 = Instance.new("TextLabel")
+local KarmaV3 = Instance.new("TextButton")
+local SpecHubV2 = Instance.new("TextButton")
+local Drip = Instance.new("TextButton")
+local KarmaV2 = Instance.new("TextButton")
+local SpecHubP1 = Instance.new("TextButton")
+local SpecHubP2 = Instance.new("TextButton")
+local ThemesPage = Instance.new("Frame")
+local Red = Instance.new("TextButton")
+local Title_9 = Instance.new("TextLabel")
+local Purple = Instance.new("TextButton")
+local Blue = Instance.new("TextButton")
+local Green = Instance.new("TextButton")
+local Yellow = Instance.new("TextButton")
+local Orange = Instance.new("TextButton")
+local TargetColor = Instance.new("TextLabel")
+local TargetColor2 = Instance.new("TextLabel")
+local TargetColor3 = Instance.new("TextLabel")
+local TargetColor4 = Instance.new("TextLabel")
+local TargetColor5 = Instance.new("TextLabel")
+local TargetColor6 = Instance.new("TextLabel")
+local RedF = Instance.new("Frame")
+local OrangeF = Instance.new("Frame")
+local YellowF = Instance.new("Frame")
+local GreenF = Instance.new("Frame")
+local PurpleF = Instance.new("Frame")
+local BlueF = Instance.new("Frame")
+local SettingsPage = Instance.new("Frame")
+local Title_10 = Instance.new("TextLabel")
+local ONT = Instance.new("TextButton")
+local OFFT = Instance.new("TextButton")
+local SettingsOption1 = Instance.new("TextLabel")
+local SettingsOption3 = Instance.new("TextLabel")
+local OFFSM = Instance.new("TextButton")
+local ONSM = Instance.new("TextButton")
+local SettingsOption4 = Instance.new("TextLabel")
+local OFFTT = Instance.new("TextButton")
+local ONTT = Instance.new("TextButton")
+local SettingsOption5 = Instance.new("TextLabel")
+local OFFWOM = Instance.new("TextButton")
+local ONWOM = Instance.new("TextButton")
+local SettingsOption6 = Instance.new("TextLabel")
+local FCLOSE = Instance.new("TextButton")
+local CreditsPage = Instance.new("Frame")
+local Credits1 = Instance.new("TextLabel")
+local cREDIT2 = Instance.new("TextLabel")
+local Title_11 = Instance.new("TextLabel")
+local Title_12 = Instance.new("TextLabel")
+local Title_13 = Instance.new("TextLabel")
+local Title_14 = Instance.new("TextLabel")
+local Title_15 = Instance.new("TextLabel")
+local Title_16 = Instance.new("TextLabel")
+local HubName = Instance.new("TextLabel")
+local Logo = Instance.new("Frame")
+local Backgorund = Instance.new("ImageLabel")
+local LogoText = Instance.new("ImageLabel")
+local Particles = Instance.new("ImageLabel")
+local Toggle = Instance.new("Frame")
+local ColorFrameT1 = Instance.new("Frame")
+local ToggleButton1 = Instance.new("TextButton")
+
+
+SpecR.Name = "SpecR"
+SpecR.Parent = game.CoreGui
+
+Main.Name = "Main"
+Main.Parent = SpecR
+Main.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.20286198, 0, 0.147386819, 0)
+Main.Size = UDim2.new(1, 0, 0.0250000004, 0)
+Main.SizeConstraint = Enum.SizeConstraint.RelativeYY
+Main.Active = true
+Main.Draggable = true
+
+Close.Name = "Close"
+Close.Parent = Main
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Close.Position = UDim2.new(0.970254898, 0, 0.0700000003, 0)
+Close.Size = UDim2.new(0.0199999996, 0, 0.0199999996, 0)
+Close.SizeConstraint = Enum.SizeConstraint.RelativeXX
+Close.ZIndex = 2
+Close.Font = Enum.Font.Gotham
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextScaled = true
+Close.TextSize = 14.000
+Close.TextWrapped = true
+Close.MouseButton1Down:connect(function()
+Main.Visible = false
+end)
+
+Hide.Name = "Hide"
+Hide.Parent = Main
+Hide.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Hide.BackgroundTransparency = 1.000
+Hide.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Hide.Position = UDim2.new(0.940084994, 0, 0.0566573143, 0)
+Hide.Size = UDim2.new(0.0199999996, 0, 0.0199999996, 0)
+Hide.SizeConstraint = Enum.SizeConstraint.RelativeXX
+Hide.ZIndex = 2
+Hide.Font = Enum.Font.Code
+Hide.Text = "-"
+Hide.TextColor3 = Color3.fromRGB(255, 255, 255)
+Hide.TextScaled = true
+Hide.TextSize = 14.000
+Hide.TextWrapped = true
+Hide.MouseButton1Down:connect(function()
+if ViewFrame.Visible == true then
+ViewFrame.Visible = false
+Hide.Text = "+"
+else
+ViewFrame.Visible = true
+Hide.Text = "-"
+end
+end)
+
+ViewFrame.Name = "ViewFrame"
+ViewFrame.Parent = Main
+ViewFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ViewFrame.BackgroundTransparency = 0.350
+ViewFrame.BorderSizePixel = 0
+ViewFrame.Position = UDim2.new(0, 0, 0.971670151, 0)
+ViewFrame.Size = UDim2.new(1, 0, 27.0086193, 0)
+
+SeperationBar.Name = "SeperationBar"
+SeperationBar.Parent = ViewFrame
+SeperationBar.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+SeperationBar.BorderSizePixel = 0
+SeperationBar.Position = UDim2.new(0.00424929243, 0, 0.0465640016, 0)
+SeperationBar.Size = UDim2.new(0.99000001, 0, 0.00300000003, 0)
+
+Welcome.Name = "Welcome"
+Welcome.Parent = ViewFrame
+Welcome.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Welcome.BorderSizePixel = 0
+Welcome.Position = UDim2.new(0.0254957676, 0, 0.0149988532, 0)
+Welcome.Size = UDim2.new(0.126062319, 0, 0.0314661898, 0)
+Welcome.Font = Enum.Font.Code
+Welcome.Text = "Welcome"
+Welcome.TextColor3 = Color3.fromRGB(255, 255, 255)
+Welcome.TextScaled = true
+Welcome.TextSize = 14.000
+Welcome.TextWrapped = true
+Welcome.MouseButton1Down:connect(function()
+WelcomePage.Visible = true
+ScriptsPage.Visible = false
+HubsPage.Visible = false
+ThemesPage.Visible = false
+SettingsPage.Visible = false
+CreditsPage.Visible = false
+Welcome.BackgroundTransparency = 0
+Scripts.BackgroundTransparency = 1
+Hubs.BackgroundTransparency = 1 
+Theme.BackgroundTransparency = 1
+Settings.BackgroundTransparency = 1
+Credits.BackgroundTransparency = 1
+end)
+
+Scripts.Name = "Scripts"
+Scripts.Parent = ViewFrame
+Scripts.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Scripts.BackgroundTransparency = 1.000
+Scripts.BorderSizePixel = 0
+Scripts.Position = UDim2.new(0.184136003, 0, 0.0149988532, 0)
+Scripts.Size = UDim2.new(0.126062319, 0, 0.0314661898, 0)
+Scripts.Font = Enum.Font.Code
+Scripts.Text = "Scripts"
+Scripts.TextColor3 = Color3.fromRGB(255, 255, 255)
+Scripts.TextScaled = true
+Scripts.TextSize = 14.000
+Scripts.TextWrapped = true
+Scripts.MouseButton1Down:connect(function()
+WelcomePage.Visible = false
+ScriptsPage.Visible = true
+HubsPage.Visible = false
+ThemesPage.Visible = false
+SettingsPage.Visible = false
+CreditsPage.Visible = false
+Welcome.BackgroundTransparency = 1
+Scripts.BackgroundTransparency = 0
+Hubs.BackgroundTransparency = 1 
+Theme.BackgroundTransparency = 1
+Settings.BackgroundTransparency = 1
+Credits.BackgroundTransparency = 1
+end)
+
+
+Hubs.Name = "Hubs"
+Hubs.Parent = ViewFrame
+Hubs.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Hubs.BackgroundTransparency = 1.000
+Hubs.BorderSizePixel = 0
+Hubs.Position = UDim2.new(0.33711049, 0, 0.0149988532, 0)
+Hubs.Size = UDim2.new(0.126062319, 0, 0.0314661898, 0)
+Hubs.Font = Enum.Font.Code
+Hubs.Text = "Hub's"
+Hubs.TextColor3 = Color3.fromRGB(255, 255, 255)
+Hubs.TextScaled = true
+Hubs.TextSize = 14.000
+Hubs.TextWrapped = true
+Hubs.MouseButton1Down:connect(function()
+WelcomePage.Visible = false
+ScriptsPage.Visible = false
+HubsPage.Visible = true
+ThemesPage.Visible = false
+SettingsPage.Visible = false
+CreditsPage.Visible = false
+Welcome.BackgroundTransparency = 1
+Scripts.BackgroundTransparency = 1
+Hubs.BackgroundTransparency = 0 
+Theme.BackgroundTransparency = 1
+Settings.BackgroundTransparency = 1
+Credits.BackgroundTransparency = 1
+end)
+
+Theme.Name = "Theme"
+Theme.Parent = ViewFrame
+Theme.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Theme.BackgroundTransparency = 1.000
+Theme.BorderSizePixel = 0
+Theme.Position = UDim2.new(0.508498549, 0, 0.0149988532, 0)
+Theme.Size = UDim2.new(0.126062319, 0, 0.0314661898, 0)
+Theme.Font = Enum.Font.Code
+Theme.Text = "Theme"
+Theme.TextColor3 = Color3.fromRGB(255, 255, 255)
+Theme.TextScaled = true
+Theme.TextSize = 14.000
+Theme.TextWrapped = true
+Theme.MouseButton1Down:connect(function()
+WelcomePage.Visible = false
+ScriptsPage.Visible = false
+HubsPage.Visible = false
+ThemesPage.Visible = true
+SettingsPage.Visible = false
+CreditsPage.Visible = false
+Welcome.BackgroundTransparency = 1
+Scripts.BackgroundTransparency = 1
+Hubs.BackgroundTransparency = 1 
+Theme.BackgroundTransparency = 0
+Settings.BackgroundTransparency = 1
+Credits.BackgroundTransparency = 1
+end)
+
+Settings.Name = "Settings"
+Settings.Parent = ViewFrame
+Settings.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Settings.BackgroundTransparency = 1.000
+Settings.BorderSizePixel = 0
+Settings.Position = UDim2.new(0.677053809, 0, 0.0149988532, 0)
+Settings.Size = UDim2.new(0.126062319, 0, 0.0314661898, 0)
+Settings.Font = Enum.Font.Code
+Settings.Text = "Settings"
+Settings.TextColor3 = Color3.fromRGB(255, 255, 255)
+Settings.TextScaled = true
+Settings.TextSize = 14.000
+Settings.TextWrapped = true
+Settings.MouseButton1Down:connect(function()
+WelcomePage.Visible = false
+ScriptsPage.Visible = false
+HubsPage.Visible = false
+ThemesPage.Visible = false
+SettingsPage.Visible = true
+CreditsPage.Visible = false
+Welcome.BackgroundTransparency = 1
+Scripts.BackgroundTransparency = 1
+Hubs.BackgroundTransparency = 1 
+Theme.BackgroundTransparency = 1
+Settings.BackgroundTransparency = 0
+Credits.BackgroundTransparency = 1
+end)
+
+Credits.Name = "Credits"
+Credits.Parent = ViewFrame
+Credits.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Credits.BackgroundTransparency = 1.000
+Credits.BorderSizePixel = 0
+Credits.Position = UDim2.new(0.848441958, 0, 0.0149988532, 0)
+Credits.Size = UDim2.new(0.126062319, 0, 0.0314661898, 0)
+Credits.Font = Enum.Font.Code
+Credits.Text = "Credits"
+Credits.TextColor3 = Color3.fromRGB(255, 255, 255)
+Credits.TextScaled = true
+Credits.TextSize = 14.000
+Credits.TextWrapped = true
+Credits.MouseButton1Down:connect(function()
+WelcomePage.Visible = false
+ScriptsPage.Visible = false
+HubsPage.Visible = false
+ThemesPage.Visible = false
+SettingsPage.Visible = false
+CreditsPage.Visible = true
+Welcome.BackgroundTransparency = 1
+Scripts.BackgroundTransparency = 1
+Hubs.BackgroundTransparency = 1 
+Theme.BackgroundTransparency = 1
+Settings.BackgroundTransparency = 1
+Credits.BackgroundTransparency = 0
+end)
+
+WelcomePage.Name = "WelcomePage"
+WelcomePage.Parent = ViewFrame
+WelcomePage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WelcomePage.BackgroundTransparency = 1.000
+WelcomePage.BorderSizePixel = 0
+WelcomePage.Position = UDim2.new(0, 0, 0.049563989, 0)
+WelcomePage.Size = UDim2.new(1, 0, 0.950435996, 0)
+WelcomePage.ZIndex = 2
+
+Title.Name = "Title"
+Title.Parent = WelcomePage
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.Position = UDim2.new(0.0708215386, 0, 0.0480654128, 0)
+Title.Size = UDim2.new(0.855524063, 0, 0.169949844, 0)
+Title.ZIndex = 3
+Title.Font = Enum.Font.Code
+Title.Text = "Let's get started!"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+
+Description2.Name = "Description2"
+Description2.Parent = WelcomePage
+Description2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Description2.BackgroundTransparency = 1.000
+Description2.Position = UDim2.new(0.0212464593, 0, 0.85808605, 0)
+Description2.Size = UDim2.new(0.957507074, 0, 0.119185619, 0)
+Description2.ZIndex = 3
+Description2.Font = Enum.Font.SourceSansLight
+Description2.Text = "Spec:R is a remaster of the classic SpecHub, while SpecHub V1 (both parts) and SpecHub V2 arn't 100% outdated Spec:R seeks to replace SpecHub and even Karma"
+Description2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Description2.TextScaled = true
+Description2.TextSize = 14.000
+Description2.TextWrapped = true
+
+Description1.Name = "Description1"
+Description1.Parent = WelcomePage
+Description1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Description1.BackgroundTransparency = 1.000
+Description1.Position = UDim2.new(0.0708215311, 0, 0.273193777, 0)
+Description1.Size = UDim2.new(0.855524063, 0, 0.295756876, 0)
+Description1.ZIndex = 3
+Description1.Font = Enum.Font.SourceSans
+Description1.Text = "Spec:R is lots of amazing scripts and script hubs! If you need a FREE scripts that can be fun and useful you are in the right place!"
+Description1.TextColor3 = Color3.fromRGB(255, 255, 255)
+Description1.TextScaled = true
+Description1.TextSize = 14.000
+Description1.TextWrapped = true
+
+GetStarted.Name = "GetStarted"
+GetStarted.Parent = WelcomePage
+GetStarted.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+GetStarted.BorderSizePixel = 0
+GetStarted.Position = UDim2.new(0.244088799, 0, 0.640174985, 0)
+GetStarted.Size = UDim2.new(0.512396693, 0, 0.118048593, 0)
+GetStarted.Font = Enum.Font.SourceSansLight
+GetStarted.Text = "Get Started"
+GetStarted.TextColor3 = Color3.fromRGB(255, 255, 255)
+GetStarted.TextScaled = true
+GetStarted.TextSize = 14.000
+GetStarted.TextWrapped = true
+GetStarted.MouseButton1Down:connect(function()
+WelcomePage.Visible = false
+ScriptsPage.Visible = true
+Welcome.BackgroundTransparency = 1
+Scripts.BackgroundTransparency = 0
+end)
+
+ScriptsPage.Name = "ScriptsPage"
+ScriptsPage.Parent = ViewFrame
+ScriptsPage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptsPage.BackgroundTransparency = 1.000
+ScriptsPage.BorderSizePixel = 0
+ScriptsPage.Position = UDim2.new(0, 0, 0.049563989, 0)
+ScriptsPage.Size = UDim2.new(1, 0, 0.950435996, 0)
+ScriptsPage.Visible = false
+
+Achromatic.Name = "Achromatic"
+Achromatic.Parent = ScriptsPage
+Achromatic.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Achromatic.BorderSizePixel = 0
+Achromatic.Position = UDim2.new(0.0615643263, 0, 0.18604207, 0)
+Achromatic.Size = UDim2.new(0.150137737, 0, 0.0708291605, 0)
+Achromatic.Font = Enum.Font.SourceSansLight
+Achromatic.Text = "Achromatic"
+Achromatic.TextColor3 = Color3.fromRGB(255, 255, 255)
+Achromatic.TextScaled = true
+Achromatic.TextSize = 14.000
+Achromatic.TextWrapped = true
+Achromatic.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/KqcTFiad", true))()
+end)
+
+Title_2.Name = "Title"
+Title_2.Parent = ScriptsPage
+Title_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_2.BackgroundTransparency = 1.000
+Title_2.Position = UDim2.new(0.0708215311, 0, 0.028201161, 0)
+Title_2.Size = UDim2.new(0.855524063, 0, 0.0840064734, 0)
+Title_2.ZIndex = 3
+Title_2.Font = Enum.Font.Code
+Title_2.Text = "scripts"
+Title_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_2.TextScaled = true
+Title_2.TextSize = 14.000
+Title_2.TextWrapped = true
+
+Title_3.Name = "Title"
+Title_3.Parent = ScriptsPage
+Title_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_3.BackgroundTransparency = 1.000
+Title_3.Position = UDim2.new(0.0708215311, 0, 0.124808632, 0)
+Title_3.Size = UDim2.new(0.855524063, 0, 0.0378029197, 0)
+Title_3.ZIndex = 3
+Title_3.Font = Enum.Font.Code
+Title_3.Text = "Hat Scripts"
+Title_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_3.TextScaled = true
+Title_3.TextSize = 14.000
+Title_3.TextWrapped = true
+
+FESniper.Name = "FESniper"
+FESniper.Parent = ScriptsPage
+FESniper.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+FESniper.BorderSizePixel = 0
+FESniper.Position = UDim2.new(0.241803706, 0, 0.18604207, 0)
+FESniper.Size = UDim2.new(0.150137737, 0, 0.0708291605, 0)
+FESniper.Font = Enum.Font.SourceSansLight
+FESniper.Text = "FE Sniper"
+FESniper.TextColor3 = Color3.fromRGB(255, 255, 255)
+FESniper.TextScaled = true
+FESniper.TextSize = 14.000
+FESniper.TextWrapped = true
+FESniper.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/dtz7qGBg", true))()
+end)
+
+FEBrickCar.Name = "FEBrickCar"
+FEBrickCar.Parent = ScriptsPage
+FEBrickCar.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+FEBrickCar.BorderSizePixel = 0
+FEBrickCar.Position = UDim2.new(0.603372633, 0, 0.18604207, 0)
+FEBrickCar.Size = UDim2.new(0.150137737, 0, 0.0708291605, 0)
+FEBrickCar.Font = Enum.Font.SourceSansLight
+FEBrickCar.Text = "FE Brick Car"
+FEBrickCar.TextColor3 = Color3.fromRGB(255, 255, 255)
+FEBrickCar.TextScaled = true
+FEBrickCar.TextSize = 14.000
+FEBrickCar.TextWrapped = true
+FEBrickCar.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/xH2qYJ9B", true))()
+end)
+
+FEStand.Name = "FEStand"
+FEStand.Parent = ScriptsPage
+FEStand.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+FEStand.BorderSizePixel = 0
+FEStand.Position = UDim2.new(0.424337089, 0, 0.18604207, 0)
+FEStand.Size = UDim2.new(0.150137737, 0, 0.0708291605, 0)
+FEStand.Font = Enum.Font.SourceSansLight
+FEStand.Text = "FE Stand"
+FEStand.TextColor3 = Color3.fromRGB(255, 255, 255)
+FEStand.TextScaled = true
+FEStand.TextSize = 14.000
+FEStand.TextWrapped = true
+FEStand.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/rasxtLt8'),true))()
+end)
+
+NullwareHub.Name = "NullwareHub"
+NullwareHub.Parent = ScriptsPage
+NullwareHub.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+NullwareHub.BorderSizePixel = 0
+NullwareHub.Position = UDim2.new(0.0615643263, 0, 0.347754598, 0)
+NullwareHub.Size = UDim2.new(0.151515156, 0, 0.0686828196, 0)
+NullwareHub.Font = Enum.Font.SourceSansLight
+NullwareHub.Text = "[Removed]"
+NullwareHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+NullwareHub.TextScaled = true
+NullwareHub.TextSize = 14.000
+NullwareHub.TextWrapped = true
+
+BeFurry.Name = "BeFurry"
+BeFurry.Parent = ScriptsPage
+BeFurry.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+BeFurry.BorderSizePixel = 0
+BeFurry.Position = UDim2.new(0.242244005, 0, 0.347754598, 0)
+BeFurry.Size = UDim2.new(0.151515156, 0, 0.0686828196, 0)
+BeFurry.Font = Enum.Font.SourceSansLight
+BeFurry.Text = "Be Furry"
+BeFurry.TextColor3 = Color3.fromRGB(255, 255, 255)
+BeFurry.TextScaled = true
+BeFurry.TextSize = 14.000
+BeFurry.TextWrapped = true
+BeFurry.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/SjXHsYr8"))();
+end)
+
+SuperCar.Name = "SuperCar"
+SuperCar.Parent = ScriptsPage
+SuperCar.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+SuperCar.BorderSizePixel = 0
+SuperCar.Position = UDim2.new(0.604695976, 0, 0.347754598, 0)
+SuperCar.Size = UDim2.new(0.151515156, 0, 0.0686828196, 0)
+SuperCar.Font = Enum.Font.SourceSansLight
+SuperCar.Text = "Super Car"
+SuperCar.TextColor3 = Color3.fromRGB(255, 255, 255)
+SuperCar.TextScaled = true
+SuperCar.TextSize = 14.000
+SuperCar.TextWrapped = true
+SuperCar.MouseButton1Down:connect(function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/MonkoTubeYT/carscript/master/!carscript.lua',true))()
+end)
+
+InfYeild.Name = "InfYeild"
+InfYeild.Parent = ScriptsPage
+InfYeild.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+InfYeild.BorderSizePixel = 0
+InfYeild.Position = UDim2.new(0.425223172, 0, 0.347754598, 0)
+InfYeild.Size = UDim2.new(0.151515156, 0, 0.0686828196, 0)
+InfYeild.Font = Enum.Font.SourceSansLight
+InfYeild.Text = "Inf Yeild"
+InfYeild.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfYeild.TextScaled = true
+InfYeild.TextSize = 14.000
+InfYeild.TextWrapped = true
+InfYeild.MouseButton1Down:connect(function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+Title_4.Name = "Title"
+Title_4.Parent = ScriptsPage
+Title_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_4.BackgroundTransparency = 1.000
+Title_4.Position = UDim2.new(0.0708215311, 0, 0.280220628, 0)
+Title_4.Size = UDim2.new(0.855524063, 0, 0.0378029197, 0)
+Title_4.ZIndex = 3
+Title_4.Font = Enum.Font.Code
+Title_4.Text = "Popular"
+Title_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_4.TextScaled = true
+Title_4.TextSize = 14.000
+Title_4.TextWrapped = true
+
+SkateBoard.Name = "SkateBoard"
+SkateBoard.Parent = ScriptsPage
+SkateBoard.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+SkateBoard.BorderSizePixel = 0
+SkateBoard.Position = UDim2.new(0.783086717, 0, 0.18604207, 0)
+SkateBoard.Size = UDim2.new(0.150137737, 0, 0.0708291605, 0)
+SkateBoard.Font = Enum.Font.SourceSansLight
+SkateBoard.Text = "Skate Board"
+SkateBoard.TextColor3 = Color3.fromRGB(255, 255, 255)
+SkateBoard.TextScaled = true
+SkateBoard.TextSize = 14.000
+SkateBoard.TextWrapped = true
+SkateBoard.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/XAXCaupJ"))()
+end)
+
+Title_5.Name = "Title"
+Title_5.Parent = ScriptsPage
+Title_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_5.BackgroundTransparency = 1.000
+Title_5.Position = UDim2.new(0.072237961, 0, 0.456634283, 0)
+Title_5.Size = UDim2.new(0.855524063, 0, 0.0378029197, 0)
+Title_5.ZIndex = 3
+Title_5.Font = Enum.Font.Code
+Title_5.Text = "For Games"
+Title_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_5.TextScaled = true
+Title_5.TextSize = 14.000
+Title_5.TextWrapped = true
+
+RagdollGUI.Name = "RagdollGUI"
+RagdollGUI.Parent = ScriptsPage
+RagdollGUI.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+RagdollGUI.BorderSizePixel = 0
+RagdollGUI.Position = UDim2.new(0.0615643263, 0, 0.532568753, 0)
+RagdollGUI.Size = UDim2.new(0.190082639, 0, 0.0751218349, 0)
+RagdollGUI.Font = Enum.Font.SourceSansLight
+RagdollGUI.Text = "Ragdoll GUI"
+RagdollGUI.TextColor3 = Color3.fromRGB(255, 255, 255)
+RagdollGUI.TextScaled = true
+RagdollGUI.TextSize = 14.000
+RagdollGUI.TextWrapped = true
+RagdollGUI.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Scripts/master/Vynixius%20Ragdoll%20Engine"))()
+end)
+
+FencingGUI.Name = "FencingGUI"
+FencingGUI.Parent = ScriptsPage
+FencingGUI.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+FencingGUI.BorderSizePixel = 0
+FencingGUI.Position = UDim2.new(0.287819147, 0, 0.532568753, 0)
+FencingGUI.Size = UDim2.new(0.190082639, 0, 0.0751218349, 0)
+FencingGUI.Font = Enum.Font.SourceSansLight
+FencingGUI.Text = "Frencing GUI (P1)"
+FencingGUI.TextColor3 = Color3.fromRGB(255, 255, 255)
+FencingGUI.TextScaled = true
+FencingGUI.TextSize = 14.000
+FencingGUI.TextWrapped = true
+FencingGUI.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/rE9S3N45'),true))()
+end)
+
+ReplicationUI.Name = "ReplicationUI"
+ReplicationUI.Parent = ScriptsPage
+ReplicationUI.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+ReplicationUI.BorderSizePixel = 0
+ReplicationUI.Position = UDim2.new(0.516953647, 0, 0.532568753, 0)
+ReplicationUI.Size = UDim2.new(0.190082639, 0, 0.0751218349, 0)
+ReplicationUI.Font = Enum.Font.SourceSansLight
+ReplicationUI.Text = "Replication UI (P2)"
+ReplicationUI.TextColor3 = Color3.fromRGB(255, 255, 255)
+ReplicationUI.TextScaled = true
+ReplicationUI.TextSize = 14.000
+ReplicationUI.TextWrapped = true
+ReplicationUI.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/PhvUrNYn", true))()
+end)
+
+DarkWare.Name = "DarkWare"
+DarkWare.Parent = ScriptsPage
+DarkWare.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+DarkWare.BorderSizePixel = 0
+DarkWare.Position = UDim2.new(0.741696894, 0, 0.532568753, 0)
+DarkWare.Size = UDim2.new(0.190082639, 0, 0.0751218349, 0)
+DarkWare.Font = Enum.Font.SourceSansLight
+DarkWare.Text = "DarkWare"
+DarkWare.TextColor3 = Color3.fromRGB(255, 255, 255)
+DarkWare.TextScaled = true
+DarkWare.TextSize = 14.000
+DarkWare.TextWrapped = true
+DarkWare.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/Yarik312/DarkWare/main/MainLoader"), true))()
+end)
+
+SpinHats.Name = "SpinHats"
+SpinHats.Parent = ScriptsPage
+SpinHats.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+SpinHats.BorderSizePixel = 0
+SpinHats.Position = UDim2.new(0.781419933, 0, 0.347754598, 0)
+SpinHats.Size = UDim2.new(0.151515156, 0, 0.0686828196, 0)
+SpinHats.Font = Enum.Font.SourceSansLight
+SpinHats.Text = "Spin Hats"
+SpinHats.TextColor3 = Color3.fromRGB(255, 255, 255)
+SpinHats.TextScaled = true
+SpinHats.TextSize = 14.000
+SpinHats.TextWrapped = true
+SpinHats.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(("https://pastebin.com/raw/11DggnXq"), true))()
+end)
+
+
+Title_6.Name = "Title"
+Title_6.Parent = ScriptsPage
+Title_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_6.BackgroundTransparency = 1.000
+Title_6.Position = UDim2.new(0.0708215311, 0, 0.643548727, 0)
+Title_6.Size = UDim2.new(0.855524063, 0, 0.0378029197, 0)
+Title_6.ZIndex = 3
+Title_6.Font = Enum.Font.Code
+Title_6.Text = "Fun"
+Title_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_6.TextScaled = true
+Title_6.TextSize = 14.000
+Title_6.TextWrapped = true
+
+Headless.Name = "Headless"
+Headless.Parent = ScriptsPage
+Headless.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Headless.BorderSizePixel = 0
+Headless.Position = UDim2.new(0.0615643263, 0, 0.717383087, 0)
+Headless.Size = UDim2.new(0.254820943, 0, 0.0665364787, 0)
+Headless.Font = Enum.Font.SourceSansLight
+Headless.Text = "Headless"
+Headless.TextColor3 = Color3.fromRGB(255, 255, 255)
+Headless.TextScaled = true
+Headless.TextSize = 14.000
+Headless.TextWrapped = true
+Headless.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/fq1uzhZd", true))()
+end)
+
+Memeus.Name = "Memeus"
+Memeus.Parent = ScriptsPage
+Memeus.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Memeus.BorderSizePixel = 0
+Memeus.Position = UDim2.new(0.366054833, 0, 0.717383087, 0)
+Memeus.Size = UDim2.new(0.254820943, 0, 0.0665364787, 0)
+Memeus.Font = Enum.Font.SourceSansLight
+Memeus.Text = "Memeus"
+Memeus.TextColor3 = Color3.fromRGB(255, 255, 255)
+Memeus.TextScaled = true
+Memeus.TextSize = 14.000
+Memeus.TextWrapped = true
+Memeus.MouseButton1Down:connect(function()
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/2MSTmKBa"))()
+end)
+
+KrystalDances.Name = "KrystalDances"
+KrystalDances.Parent = ScriptsPage
+KrystalDances.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+KrystalDances.BorderSizePixel = 0
+KrystalDances.Position = UDim2.new(0.674420655, 0, 0.717383087, 0)
+KrystalDances.Size = UDim2.new(0.254820943, 0, 0.0665364787, 0)
+KrystalDances.Font = Enum.Font.SourceSansLight
+KrystalDances.Text = "Krystal Dances"
+KrystalDances.TextColor3 = Color3.fromRGB(255, 255, 255)
+KrystalDances.TextScaled = true
+KrystalDances.TextSize = 14.000
+KrystalDances.TextWrapped = true
+KrystalDances.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/FV3HLmTH", true))()
+end)
+
+Title_7.Name = "Title"
+Title_7.Parent = ScriptsPage
+Title_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_7.BackgroundTransparency = 1.000
+Title_7.Position = UDim2.new(0.072237961, 0, 0.813661993, 0)
+Title_7.Size = UDim2.new(0.855524063, 0, 0.0378029197, 0)
+Title_7.ZIndex = 3
+Title_7.Font = Enum.Font.Code
+Title_7.Text = "Important / Other"
+Title_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_7.TextScaled = true
+Title_7.TextSize = 14.000
+Title_7.TextWrapped = true
+
+NetBypass.Name = "NetBypass"
+NetBypass.Parent = ScriptsPage
+NetBypass.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+NetBypass.BorderSizePixel = 0
+NetBypass.Position = UDim2.new(0.512285352, 0, 0.891975343, 0)
+NetBypass.Size = UDim2.new(0.188705236, 0, 0.0643901452, 0)
+NetBypass.Font = Enum.Font.SourceSansLight
+NetBypass.Text = "Net Bypass"
+NetBypass.TextColor3 = Color3.fromRGB(255, 255, 255)
+NetBypass.TextScaled = true
+NetBypass.TextSize = 14.000
+NetBypass.TextWrapped = true
+NetBypass.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/XTmMzATJ'),true))()
+end)
+
+VRScript.Name = "VRScript"
+VRScript.Parent = ScriptsPage
+VRScript.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+VRScript.BorderSizePixel = 0
+VRScript.Position = UDim2.new(0.742936313, 0, 0.891975343, 0)
+VRScript.Size = UDim2.new(0.188705236, 0, 0.0643901452, 0)
+VRScript.Font = Enum.Font.SourceSansLight
+VRScript.Text = "VR Script"
+VRScript.TextColor3 = Color3.fromRGB(255, 255, 255)
+VRScript.TextScaled = true
+VRScript.TextSize = 14.000
+VRScript.TextWrapped = true
+VRScript.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/A1qQGTcK'),true))()
+end)
+
+Dex.Name = "Dex"
+Dex.Parent = ScriptsPage
+Dex.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Dex.BorderSizePixel = 0
+Dex.Position = UDim2.new(0.284808874, 0, 0.889540255, 0)
+Dex.Size = UDim2.new(0.188705236, 0, 0.0643901452, 0)
+Dex.Font = Enum.Font.SourceSansLight
+Dex.Text = "Dex"
+Dex.TextColor3 = Color3.fromRGB(255, 255, 255)
+Dex.TextScaled = true
+Dex.TextSize = 14.000
+Dex.TextWrapped = true
+Dex.MouseButton1Down:connect(function()
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/fPP8bZ8Z"))()
+end)
+
+GrabTool.Name = "GrabTool"
+GrabTool.Parent = ScriptsPage
+GrabTool.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+GrabTool.BorderSizePixel = 0
+GrabTool.Position = UDim2.new(0.0615643263, 0, 0.889540255, 0)
+GrabTool.Size = UDim2.new(0.188705236, 0, 0.0643901452, 0)
+GrabTool.Font = Enum.Font.SourceSansLight
+GrabTool.Text = "Grab Tool"
+GrabTool.TextColor3 = Color3.fromRGB(255, 255, 255)
+GrabTool.TextScaled = true
+GrabTool.TextSize = 14.000
+GrabTool.TextWrapped = true
+GrabTool.MouseButton1Click:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/iCHEfLLM", true))()
+end)
+
+HubsPage.Name = "HubsPage"
+HubsPage.Parent = ViewFrame
+HubsPage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HubsPage.BackgroundTransparency = 1.000
+HubsPage.BorderSizePixel = 0
+HubsPage.Position = UDim2.new(0, 0, 0.049563989, 0)
+HubsPage.Size = UDim2.new(1, 0, 0.950435996, 0)
+HubsPage.Visible = false
+
+Title_8.Name = "Title"
+Title_8.Parent = HubsPage
+Title_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_8.BackgroundTransparency = 1.000
+Title_8.Position = UDim2.new(0.0708215311, 0, 0.0480654277, 0)
+Title_8.Size = UDim2.new(0.855524063, 0, 0.079457067, 0)
+Title_8.ZIndex = 3
+Title_8.Font = Enum.Font.Code
+Title_8.Text = "Script Hub's"
+Title_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_8.TextScaled = true
+Title_8.TextSize = 14.000
+Title_8.TextWrapped = true
+
+FEHub.Name = "FathomHub"
+FEHub.Parent = HubsPage
+FEHub.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+FEHub.BorderSizePixel = 0
+FEHub.Position = UDim2.new(0.0323773026, 0, 0.160836399, 0)
+FEHub.Size = UDim2.new(0.278236926, 0, 0.072975494, 0)
+FEHub.Font = Enum.Font.SourceSansLight
+FEHub.Text = "FathomHub"
+FEHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+FEHub.TextScaled = true
+FEHub.TextSize = 14.000
+FEHub.TextWrapped = true
+FEHub.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/UmhaEvTT",true))()
+end)
+
+ChatBypass.Name = "ChatBypass"
+ChatBypass.Parent = HubsPage
+ChatBypass.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+ChatBypass.BorderSizePixel = 0
+ChatBypass.Position = UDim2.new(0.0323773026, 0, 0.304641008, 0)
+ChatBypass.Size = UDim2.new(0.278236926, 0, 0.072975494, 0)
+ChatBypass.Font = Enum.Font.SourceSansLight
+ChatBypass.Text = "Chat Bypasser"
+ChatBypass.TextColor3 = Color3.fromRGB(255, 255, 255)
+ChatBypass.TextScaled = true
+ChatBypass.TextSize = 14.000
+ChatBypass.TextWrapped = true
+ChatBypass.MouseButton1Down:connect(function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/bedra45/chetbypasser/main/chetbypass'))()
+end)
+
+ChatHaxV2.Name = "ChatHaxV2"
+ChatHaxV2.Parent = HubsPage
+ChatHaxV2.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+ChatHaxV2.BorderSizePixel = 0
+ChatHaxV2.Position = UDim2.new(0.350559175, 0, 0.304641008, 0)
+ChatHaxV2.Size = UDim2.new(0.279614329, 0, 0.072975494, 0)
+ChatHaxV2.Font = Enum.Font.SourceSansLight
+ChatHaxV2.Text = "ChatHaxV2"
+ChatHaxV2.TextColor3 = Color3.fromRGB(255, 255, 255)
+ChatHaxV2.TextScaled = true
+ChatHaxV2.TextSize = 14.000
+ChatHaxV2.TextWrapped = true
+ChatHaxV2.MouseButton1Down:connect(function()
+function sandbox(var,func)
+local env = getfenv(func)
+local newenv = setmetatable({},{
+__index = function(self,k)
+if k=="script" then
+return var
+else
+return env[k]
+end
+end,
+})
+setfenv(func,newenv)
+return func
+end
+cors = {}
+mas = Instance.new("Model",game:GetService("Lighting"))
+ScreenGui0 = Instance.new("ScreenGui")
+Frame1 = Instance.new("Frame")
+Frame2 = Instance.new("Frame")
+TextBox3 = Instance.new("TextBox")
+TextLabel4 = Instance.new("TextLabel")
+Frame5 = Instance.new("Frame")
+TextLabel6 = Instance.new("TextLabel")
+TextLabel7 = Instance.new("TextLabel")
+TextBox8 = Instance.new("TextBox")
+TextLabel9 = Instance.new("TextLabel")
+TextBox10 = Instance.new("TextBox")
+TextButton11 = Instance.new("TextButton")
+LocalScript12 = Instance.new("LocalScript")
+LocalScript13 = Instance.new("LocalScript")
+ScreenGui0.Parent = mas
+ScreenGui0.ResetOnSpawn = false
+Frame1.Parent = ScreenGui0
+Frame1.Position = UDim2.new(0.096632503, 0, 0.648711979, 0)
+Frame1.Size = UDim2.new(0, 438, 0, 179)
+Frame1.BackgroundColor = BrickColor.new("Really black")
+Frame1.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+Frame1.BorderSizePixel = 0
+Frame2.Name = "pt1"
+Frame2.Parent = Frame1
+Frame2.Position = UDim2.new(0, 0, 0.114857376, 0)
+Frame2.Size = UDim2.new(0, 438, 0, 9)
+Frame2.BackgroundColor = BrickColor.new("Dark blue")
+Frame2.BackgroundColor3 = Color3.new(0, 0.215686, 0.65098)
+Frame2.BorderSizePixel = 0
+TextBox3.Parent = Frame2
+TextBox3.Position = UDim2.new(0.098173514, 0, 1.66666675, 0)
+TextBox3.Size = UDim2.new(0, 224, 0, 28)
+TextBox3.BackgroundColor = BrickColor.new("Black metallic")
+TextBox3.BackgroundColor3 = Color3.new(0.121569, 0.121569, 0.121569)
+TextBox3.BorderSizePixel = 0
+TextBox3.Font = Enum.Font.SourceSans
+TextBox3.FontSize = Enum.FontSize.Size24
+TextBox3.Text = ""
+TextBox3.TextColor = BrickColor.new("Institutional white")
+TextBox3.TextColor3 = Color3.new(1, 1, 1)
+TextBox3.TextSize = 23
+TextBox3.TextXAlignment = Enum.TextXAlignment.Left
+TextBox3.TextYAlignment = Enum.TextYAlignment.Top
+TextBox3.ClearTextOnFocus = false
+TextLabel4.Parent = Frame1
+TextLabel4.Size = UDim2.new(0, 121, 0, 21)
+TextLabel4.BackgroundColor = BrickColor.new("Institutional white")
+TextLabel4.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel4.BackgroundTransparency = 1
+TextLabel4.BorderSizePixel = 0
+TextLabel4.Font = Enum.Font.SourceSans
+TextLabel4.FontSize = Enum.FontSize.Size14
+TextLabel4.Text = "FE Chat Hax"
+TextLabel4.TextColor = BrickColor.new("Institutional white")
+TextLabel4.TextColor3 = Color3.new(1, 1, 1)
+TextLabel4.TextScaled = true
+TextLabel4.TextSize = 14
+TextLabel4.TextWrap = true
+TextLabel4.TextWrapped = true
+Frame5.Name = "pt2"
+Frame5.Parent = Frame1
+Frame5.Position = UDim2.new(0, 0, 0.401840836, 0)
+Frame5.Size = UDim2.new(0, 438, 0, 9)
+Frame5.BackgroundColor = BrickColor.new("Dark blue")
+Frame5.BackgroundColor3 = Color3.new(0, 0.215686, 0.65098)
+Frame5.BorderSizePixel = 0
+TextLabel6.Parent = Frame5
+TextLabel6.Position = UDim2.new(0, 0, -4, 0)
+TextLabel6.Size = UDim2.new(0, 49, 0, 20)
+TextLabel6.BackgroundColor = BrickColor.new("Institutional white")
+TextLabel6.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel6.BackgroundTransparency = 1
+TextLabel6.Font = Enum.Font.SourceSans
+TextLabel6.FontSize = Enum.FontSize.Size14
+TextLabel6.Text = "You:"
+TextLabel6.TextColor = BrickColor.new("Institutional white")
+TextLabel6.TextColor3 = Color3.new(1, 1, 1)
+TextLabel6.TextScaled = true
+TextLabel6.TextSize = 14
+TextLabel6.TextWrap = true
+TextLabel6.TextWrapped = true
+TextLabel7.Parent = Frame5
+TextLabel7.Position = UDim2.new(0, 0, 6.77777767, 0)
+TextLabel7.Size = UDim2.new(0, 76, 0, 33)
+TextLabel7.BackgroundColor = BrickColor.new("Institutional white")
+TextLabel7.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel7.BackgroundTransparency = 1
+TextLabel7.Font = Enum.Font.SourceSans
+TextLabel7.FontSize = Enum.FontSize.Size14
+TextLabel7.Text = "ChatHaxx:"
+TextLabel7.TextColor = BrickColor.new("Institutional white")
+TextLabel7.TextColor3 = Color3.new(1, 1, 1)
+TextLabel7.TextScaled = true
+TextLabel7.TextSize = 14
+TextLabel7.TextWrap = true
+TextLabel7.TextWrapped = true
+TextBox8.Name = "Usernamee"
+TextBox8.Parent = Frame5
+TextBox8.Position = UDim2.new(0.194063917, 0, 3.66666651, 0)
+TextBox8.Size = UDim2.new(0, 224, 0, 28)
+TextBox8.BackgroundColor = BrickColor.new("Black metallic")
+TextBox8.BackgroundColor3 = Color3.new(0.121569, 0.121569, 0.121569)
+TextBox8.BorderSizePixel = 0
+TextBox8.Font = Enum.Font.SourceSans
+TextBox8.FontSize = Enum.FontSize.Size24
+TextBox8.Text = ""
+TextBox8.TextColor = BrickColor.new("Institutional white")
+TextBox8.TextColor3 = Color3.new(1, 1, 1)
+TextBox8.TextSize = 23
+TextBox8.TextXAlignment = Enum.TextXAlignment.Left
+TextBox8.TextYAlignment = Enum.TextYAlignment.Top
+TextBox8.ClearTextOnFocus = false
+TextLabel9.Parent = Frame5
+TextLabel9.Position = UDim2.new(0, 0, 3.11111116, 0)
+TextLabel9.Size = UDim2.new(0, 76, 0, 33)
+TextLabel9.BackgroundColor = BrickColor.new("Institutional white")
+TextLabel9.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel9.BackgroundTransparency = 1
+TextLabel9.Font = Enum.Font.SourceSans
+TextLabel9.FontSize = Enum.FontSize.Size14
+TextLabel9.Text = "Username:"
+TextLabel9.TextColor = BrickColor.new("Institutional white")
+TextLabel9.TextColor3 = Color3.new(1, 1, 1)
+TextLabel9.TextScaled = true
+TextLabel9.TextSize = 14
+TextLabel9.TextWrap = true
+TextLabel9.TextWrapped = true
+TextBox10.Name = "Chathaxxx"
+TextBox10.Parent = Frame5
+TextBox10.Position = UDim2.new(0.194063917, 0, 7.33333302, 0)
+TextBox10.Size = UDim2.new(0, 224, 0, 28)
+TextBox10.BackgroundColor = BrickColor.new("Black metallic")
+TextBox10.BackgroundColor3 = Color3.new(0.121569, 0.121569, 0.121569)
+TextBox10.BorderSizePixel = 0
+TextBox10.Font = Enum.Font.SourceSans
+TextBox10.FontSize = Enum.FontSize.Size24
+TextBox10.Text = ""
+TextBox10.TextColor = BrickColor.new("Institutional white")
+TextBox10.TextColor3 = Color3.new(1, 1, 1)
+TextBox10.TextSize = 23
+TextBox10.TextXAlignment = Enum.TextXAlignment.Left
+TextBox10.TextYAlignment = Enum.TextYAlignment.Top
+TextBox10.ClearTextOnFocus = false
+TextButton11.Name = "Send"
+TextButton11.Parent = Frame5
+TextButton11.Position = UDim2.new(0.746575356, 0, 5.11111116, 0)
+TextButton11.Size = UDim2.new(0, 82, 0, 40)
+TextButton11.BackgroundColor = BrickColor.new("Black metallic")
+TextButton11.BackgroundColor3 = Color3.new(0.121569, 0.121569, 0.121569)
+TextButton11.BorderSizePixel = 0
+TextButton11.Font = Enum.Font.Oswald
+TextButton11.FontSize = Enum.FontSize.Size14
+TextButton11.Text = "Send"
+TextButton11.TextColor = BrickColor.new("Really black")
+TextButton11.TextColor3 = Color3.new(0, 0, 0)
+TextButton11.TextScaled = true
+TextButton11.TextSize = 14
+TextButton11.TextWrap = true
+TextButton11.TextWrapped = true
+LocalScript12.Parent = TextButton11
+table.insert(cors,sandbox(LocalScript12,function()
+
+script.Parent.MouseButton1Click:Connect(function()
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(""..script.Parent.Parent.Parent.pt1.TextBox.Text.." \224\185\142\204\183\224\185\142\204\182\224\185\142\204\184\224\185\142\204\182\224\185\142\204\180\224\185\142\204\184\224\185\142\204\181\224\185\142\204\180\224\185\142\204\182\224\185\142\204\181\224\185\142\204\183\224\185\142\204\181\224\185\142\204\181\224\185\142\204\183\224\185\142\204\184\224\185\142\204\182\224\185\142\204\182\224\185\142\204\184\224\185\142\204\182\224\185\142\204\184\224\185\142\204\184\224\185\142\204\180\224\185\142\204\180\224\185\142\204\182\224\185\142\204\182\224\185\142\204\182\224\185\142\204\182\224\185\142\204\182\224\185\142\204\182\224\185\142\224\185\142\204\183\224\185\142\204\182\224\185\142\204\184\224\185\142\204\182\224\185\142\204\180\204\182\224\185\142\204\180\204\182\224\185\142\204\180\204\182\224\185\142\204\180\204\182\224\185\142\204\180\204\182\224\185\142\204\180\204\182\224\185\142\204\180\204\184\224\185\142\204\182\224\185\142\204\180\204\182\224\185\142\204\180\204\182\224\185\142\204\180\204\182\224\185\142\204\180\204\182\224\185\142\204\180\204\182\224\185\142\204\180\204\182\224\185\142\204\180\204\184\224\185\142\204\182\224\185\142\204\180\204\182\224\185\142\204\180\204\182\224\185\142\204\180\204\182\224\185\142\204\180\204\182\224\185\142\204\180\204\182\224\185\142\204\180\204\182\224\185\142\204\180["..script.Parent.Parent.Usernamee.Text.."]: "..script.Parent.Parent.Chathaxxx.Text.."","All")
+end)
+
+end))
+LocalScript13.Name = "Dragify"
+LocalScript13.Parent = Frame1
+table.insert(cors,sandbox(LocalScript13,function()
+local UIS = game:GetService("UserInputService")
+function dragify(Frame)
+    dragToggle = nil
+    local dragSpeed = 0.50
+    dragInput = nil
+    dragStart = nil
+    local dragPos = nil
+    function updateInput(input)
+        local Delta = input.Position - dragStart
+        local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+        game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.30), {Position = Position}):Play()
+    end
+    Frame.InputBegan:Connect(function(input)
+        if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+            dragToggle = true
+            dragStart = input.Position
+            startPos = Frame.Position
+            input.Changed:Connect(function()
+                if input.UserInputState == Enum.UserInputState.End then
+                    dragToggle = false
+                end
+            end)
+        end
+    end)
+    Frame.InputChanged:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+            dragInput = input
+        end
+    end)
+    game:GetService("UserInputService").InputChanged:Connect(function(input)
+        if input == dragInput and dragToggle then
+            updateInput(input)
+        end
+    end)
+end
+
+dragify(script.Parent)
+end))
+for i,v in pairs(mas:GetChildren()) do
+v.Parent = game.CoreGui
+pcall(function() v:MakeJoints() end)
+end
+mas:Destroy()
+for i,v in pairs(cors) do
+spawn(function()
+pcall(v)
+end)
+end
+end)
+
+NullwareHub2.Name = "NullwareHub2"
+NullwareHub2.Parent = HubsPage
+NullwareHub2.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+NullwareHub2.BorderSizePixel = 0
+NullwareHub2.Position = UDim2.new(0.353313982, 0, 0.160836399, 0)
+NullwareHub2.Size = UDim2.new(0.278236926, 0, 0.072975494, 0)
+NullwareHub2.Font = Enum.Font.SourceSansLight
+NullwareHub2.Text = "[Removed]"
+NullwareHub2.TextColor3 = Color3.fromRGB(255, 255, 255)
+NullwareHub2.TextScaled = true
+NullwareHub2.TextSize = 14.000
+NullwareHub2.TextWrapped = true
+NullwareHub2.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://paste.ee/r/z5drj/0"))()
+end)
+
+_1017xsScriptHub.Name = "1017xsScriptHub"
+_1017xsScriptHub.Parent = HubsPage
+_1017xsScriptHub.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+_1017xsScriptHub.BorderSizePixel = 0
+_1017xsScriptHub.Position = UDim2.new(0.67700547, 0, 0.160836399, 0)
+_1017xsScriptHub.Size = UDim2.new(0.278236926, 0, 0.072975494, 0)
+_1017xsScriptHub.Font = Enum.Font.SourceSansLight
+_1017xsScriptHub.Text = "Gamesense V2"
+_1017xsScriptHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+_1017xsScriptHub.TextScaled = true
+_1017xsScriptHub.TextSize = 14.000
+_1017xsScriptHub.TextWrapped = true
+_1017xsScriptHub.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/ufnW61UM'),true))()
+end)
+
+
+FEPose.Name = "FEPose"
+FEPose.Parent = HubsPage
+FEPose.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+FEPose.BorderSizePixel = 0
+FEPose.Position = UDim2.new(0.675627887, 0, 0.304641008, 0)
+FEPose.Size = UDim2.new(0.279614329, 0, 0.072975494, 0)
+FEPose.Font = Enum.Font.SourceSansLight
+FEPose.Text = "FE Pose"
+FEPose.TextColor3 = Color3.fromRGB(255, 255, 255)
+FEPose.TextScaled = true
+FEPose.TextSize = 14.000
+FEPose.TextWrapped = true
+FEPose.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/qbexdLb3", true))()
+end)
+
+Energize.Name = "Energize"
+Energize.Parent = HubsPage
+Energize.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Energize.BorderSizePixel = 0
+Energize.Position = UDim2.new(0.0323773026, 0, 0.444152951, 0)
+Energize.Size = UDim2.new(0.279614329, 0, 0.072975494, 0)
+Energize.Font = Enum.Font.SourceSansLight
+Energize.Text = "Energize"
+Energize.TextColor3 = Color3.fromRGB(255, 255, 255)
+Energize.TextScaled = true
+Energize.TextSize = 14.000
+Energize.TextWrapped = true
+Energize.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/R1MgDiRX", true))()
+end)
+
+xxHub.Name = "xxHub"
+xxHub.Parent = HubsPage
+xxHub.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+xxHub.BorderSizePixel = 0
+xxHub.Position = UDim2.new(0.350559175, 0, 0.444152951, 0)
+xxHub.Size = UDim2.new(0.279614329, 0, 0.072975494, 0)
+xxHub.Font = Enum.Font.SourceSansLight
+xxHub.Text = "xxHub"
+xxHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+xxHub.TextScaled = true
+xxHub.TextSize = 14.000
+xxHub.TextWrapped = true
+xxHub.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/YVE4njap'),true))()
+end)
+
+Orhub.Name = "Orhub"
+Orhub.Parent = HubsPage
+Orhub.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Orhub.BorderSizePixel = 0
+Orhub.Position = UDim2.new(0.675627887, 0, 0.444152951, 0)
+Orhub.Size = UDim2.new(0.279614329, 0, 0.072975494, 0)
+Orhub.Font = Enum.Font.SourceSansLight
+Orhub.Text = "Orhub"
+Orhub.TextColor3 = Color3.fromRGB(255, 255, 255)
+Orhub.TextScaled = true
+Orhub.TextSize = 14.000
+Orhub.TextWrapped = true
+Orhub.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/J2Ju6ssd'),true))()
+end)
+
+Title2.Name = "Title2"
+Title2.Parent = HubsPage
+Title2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title2.BackgroundTransparency = 1.000
+Title2.Position = UDim2.new(0.072237961, 0, 0.593229175, 0)
+Title2.Size = UDim2.new(0.855524063, 0, 0.079457067, 0)
+Title2.ZIndex = 3
+Title2.Font = Enum.Font.Code
+Title2.Text = "My Old Hub's"
+Title2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title2.TextScaled = true
+Title2.TextSize = 14.000
+Title2.TextWrapped = true
+
+KarmaV3.Name = "KarmaV3"
+KarmaV3.Parent = HubsPage
+KarmaV3.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+KarmaV3.BorderSizePixel = 0
+KarmaV3.Position = UDim2.new(0.0309998989, 0, 0.714591622, 0)
+KarmaV3.Size = UDim2.new(0.278236926, 0, 0.072975494, 0)
+KarmaV3.Font = Enum.Font.SourceSansLight
+KarmaV3.Text = "Karma V3"
+KarmaV3.TextColor3 = Color3.fromRGB(255, 255, 255)
+KarmaV3.TextScaled = true
+KarmaV3.TextSize = 14.000
+KarmaV3.TextWrapped = true
+KarmaV3.MouseButton1Down:connect(function()
+loadstring(game:HttpGet('https://pastebin.com/raw/g1W6A2nA'))()
+end)
+
+SpecHubV2.Name = "SpecHubV2"
+SpecHubV2.Parent = HubsPage
+SpecHubV2.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+SpecHubV2.BorderSizePixel = 0
+SpecHubV2.Position = UDim2.new(0.353313982, 0, 0.714591622, 0)
+SpecHubV2.Size = UDim2.new(0.278236926, 0, 0.072975494, 0)
+SpecHubV2.Font = Enum.Font.SourceSansLight
+SpecHubV2.Text = "SpecHub V2"
+SpecHubV2.TextColor3 = Color3.fromRGB(255, 255, 255)
+SpecHubV2.TextScaled = true
+SpecHubV2.TextSize = 14.000
+SpecHubV2.TextWrapped = true
+SpecHubV2.MouseButton1Down:connect(function()
+loadstring(game:HttpGet('https://pastebin.com/raw/Lnv0XqKS'))()
+end)
+
+Drip.Name = "Drip"
+Drip.Parent = HubsPage
+Drip.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Drip.BorderSizePixel = 0
+Drip.Position = UDim2.new(0.67700547, 0, 0.714591622, 0)
+Drip.Size = UDim2.new(0.278236926, 0, 0.072975494, 0)
+Drip.Font = Enum.Font.SourceSansLight
+Drip.Text = "Drip"
+Drip.TextColor3 = Color3.fromRGB(255, 255, 255)
+Drip.TextScaled = true
+Drip.TextSize = 14.000
+Drip.TextWrapped = true
+Drip.MouseButton1Down:connect(function()
+loadstring(game:HttpGet('https://pastebin.com/raw/GWmcn5AB'))()
+end)
+
+KarmaV2.Name = "KarmaV2"
+KarmaV2.Parent = HubsPage
+KarmaV2.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+KarmaV2.BorderSizePixel = 0
+KarmaV2.Position = UDim2.new(0.0309998989, 0, 0.847664595, 0)
+KarmaV2.Size = UDim2.new(0.278236926, 0, 0.072975494, 0)
+KarmaV2.Font = Enum.Font.SourceSansLight
+KarmaV2.Text = "Karma V2"
+KarmaV2.TextColor3 = Color3.fromRGB(255, 255, 255)
+KarmaV2.TextScaled = true
+KarmaV2.TextSize = 14.000
+KarmaV2.TextWrapped = true
+KarmaV2.MouseButton1Down:connect(function()
+loadstring(game:HttpGet('https://pastebin.com/raw/qsPiUqmN'))()
+end)
+
+SpecHubP1.Name = "SpecHubP1"
+SpecHubP1.Parent = HubsPage
+SpecHubP1.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+SpecHubP1.BorderSizePixel = 0
+SpecHubP1.Position = UDim2.new(0.353313982, 0, 0.847664595, 0)
+SpecHubP1.Size = UDim2.new(0.278236926, 0, 0.072975494, 0)
+SpecHubP1.Font = Enum.Font.SourceSansLight
+SpecHubP1.Text = "Spec Hub P1"
+SpecHubP1.TextColor3 = Color3.fromRGB(255, 255, 255)
+SpecHubP1.TextScaled = true
+SpecHubP1.TextSize = 14.000
+SpecHubP1.TextWrapped = true
+SpecHubP1.MouseButton1Down:connect(function()
+loadstring(game:HttpGet('https://pastebin.com/raw/4xJCJA7T'))()
+end)
+
+SpecHubP2.Name = "SpecHubP2"
+SpecHubP2.Parent = HubsPage
+SpecHubP2.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+SpecHubP2.BorderSizePixel = 0
+SpecHubP2.Position = UDim2.new(0.67700547, 0, 0.847664595, 0)
+SpecHubP2.Size = UDim2.new(0.278236926, 0, 0.072975494, 0)
+SpecHubP2.Font = Enum.Font.SourceSansLight
+SpecHubP2.Text = "Spec Hub P2"
+SpecHubP2.TextColor3 = Color3.fromRGB(255, 255, 255)
+SpecHubP2.TextScaled = true
+SpecHubP2.TextSize = 14.000
+SpecHubP2.TextWrapped = true
+SpecHubP2.MouseButton1Down:connect(function()
+loadstring(game:HttpGet('https://pastebin.com/raw/JepZy4GB'))()
+end)
+
+ThemesPage.Name = "ThemesPage"
+ThemesPage.Parent = ViewFrame
+ThemesPage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ThemesPage.BackgroundTransparency = 1.000
+ThemesPage.BorderSizePixel = 0
+ThemesPage.Position = UDim2.new(0, 0, 0.049563989, 0)
+ThemesPage.Size = UDim2.new(1, 0, 0.950435996, 0)
+ThemesPage.Visible = false
+
+Red.Name = "Red"
+Red.Parent = ThemesPage
+Red.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Red.BorderSizePixel = 0
+Red.Position = UDim2.new(0.0233178735, 0, 0.183895737, 0)
+Red.Size = UDim2.new(0.449035823, 0, 0.100877889, 0)
+Red.Font = Enum.Font.SourceSansLight
+Red.Text = "Red (Defualt)"
+Red.TextColor3 = Color3.fromRGB(255, 255, 255)
+Red.TextScaled = true
+Red.TextSize = 14.000
+Red.TextWrapped = true
+Red.MouseButton1Down:connect(function()
+GetStarted.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Achromatic.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+BeFurry.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Dex.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+DarkWare.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+FEBrickCar.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+FESniper.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+FEStand.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+FencingGUI.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+GrabTool.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Headless.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+InfYeild.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+KrystalDances.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Memeus.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+NetBypass.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+NullwareHub.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+RagdollGUI.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+ReplicationUI.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+SkateBoard.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+SpinHats.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+SuperCar.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+VRScript.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+_1017xsScriptHub.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+ChatHaxV2.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+ChatBypass.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Drip.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Energize.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+FEHub.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+FEPose.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+KarmaV2.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+KarmaV3.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+NullwareHub2.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Orhub.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+SpecHubP1.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+SpecHubP2.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+SpecHubV2.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+xxHub.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Red.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Orange.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Yellow.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Green.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Blue.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Purple.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+SeperationBar.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Credits.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Hubs.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Scripts.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Settings.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Theme.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Welcome.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Main.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+ColorFrameT1.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+end)
+
+Title_9.Name = "Title"
+Title_9.Parent = ThemesPage
+Title_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_9.BackgroundTransparency = 1.000
+Title_9.Position = UDim2.new(0.0336314216, 0, 0.0287483744, 0)
+Title_9.Size = UDim2.new(0.929178476, 0, 0.133462101, 0)
+Title_9.ZIndex = 3
+Title_9.Font = Enum.Font.Code
+Title_9.Text = "Themes"
+Title_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_9.TextScaled = true
+Title_9.TextSize = 14.000
+Title_9.TextWrapped = true
+
+Purple.Name = "Purple"
+Purple.Parent = ThemesPage
+Purple.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Purple.BorderSizePixel = 0
+Purple.Position = UDim2.new(0.0233178735, 0, 0.851406693, 0)
+Purple.Size = UDim2.new(0.449035823, 0, 0.100877889, 0)
+Purple.Font = Enum.Font.SourceSansLight
+Purple.Text = "Purple"
+Purple.TextColor3 = Color3.fromRGB(255, 255, 255)
+Purple.TextScaled = true
+Purple.TextSize = 14.000
+Purple.TextWrapped = true
+Purple.MouseButton1Down:connect(function()
+GetStarted.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+Achromatic.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+BeFurry.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+Dex.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+DarkWare.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+FEBrickCar.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+FESniper.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+FEStand.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+FencingGUI.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+GrabTool.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+Headless.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+InfYeild.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+KrystalDances.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+Memeus.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+NetBypass.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+NullwareHub.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+RagdollGUI.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+ReplicationUI.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+SkateBoard.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+SpinHats.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+SuperCar.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+VRScript.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+_1017xsScriptHub.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+ChatHaxV2.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+ChatBypass.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+Drip.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+Energize.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+FEHub.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+FEPose.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+KarmaV2.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+KarmaV3.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+NullwareHub2.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+Orhub.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+SpecHubP1.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+SpecHubP2.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+SpecHubV2.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+xxHub.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+Red.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+Orange.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+Yellow.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+Green.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+Blue.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+Purple.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+SeperationBar.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+Credits.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+Hubs.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+Scripts.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+Settings.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+Theme.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+Welcome.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+Main.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+ColorFrameT1.BackgroundColor3 = Color3.fromRGB(111, 21, 220)
+end)
+
+Blue.Name = "Blue"
+Blue.Parent = ThemesPage
+Blue.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Blue.BorderSizePixel = 0
+Blue.Position = UDim2.new(0.0233178735, 0, 0.716187596, 0)
+Blue.Size = UDim2.new(0.449035823, 0, 0.100877889, 0)
+Blue.Font = Enum.Font.SourceSansLight
+Blue.Text = "Blue"
+Blue.TextColor3 = Color3.fromRGB(255, 255, 255)
+Blue.TextScaled = true
+Blue.TextSize = 14.000
+Blue.TextWrapped = true
+Blue.MouseButton1Down:connect(function()
+GetStarted.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+Achromatic.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+BeFurry.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+Dex.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+DarkWare.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+FEBrickCar.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+FESniper.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+FEStand.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+FencingGUI.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+GrabTool.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+Headless.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+InfYeild.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+KrystalDances.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+Memeus.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+NetBypass.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+NullwareHub.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+RagdollGUI.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+ReplicationUI.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+SkateBoard.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+SpinHats.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+SuperCar.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+VRScript.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+_1017xsScriptHub.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+ChatHaxV2.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+ChatBypass.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+Drip.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+Energize.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+FEHub.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+FEPose.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+KarmaV2.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+KarmaV3.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+NullwareHub2.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+Orhub.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+SpecHubP1.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+SpecHubP2.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+SpecHubV2.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+xxHub.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+Red.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+Orange.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+Yellow.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+Green.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+Blue.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+Purple.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+SeperationBar.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+Credits.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+Hubs.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+Scripts.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+Settings.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+Theme.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+Welcome.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+Main.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+ColorFrameT1.BackgroundColor3 = Color3.fromRGB(38, 107, 255)
+end)
+
+Green.Name = "Green"
+Green.Parent = ThemesPage
+Green.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Green.BorderSizePixel = 0
+Green.Position = UDim2.new(0.0233178735, 0, 0.580968261, 0)
+Green.Size = UDim2.new(0.449035823, 0, 0.100877889, 0)
+Green.Font = Enum.Font.SourceSansLight
+Green.Text = "Green"
+Green.TextColor3 = Color3.fromRGB(255, 255, 255)
+Green.TextScaled = true
+Green.TextSize = 14.000
+Green.TextWrapped = true
+Green.MouseButton1Down:connect(function()
+GetStarted.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+Achromatic.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+BeFurry.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+Dex.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+DarkWare.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+FEBrickCar.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+FESniper.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+FEStand.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+FencingGUI.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+GrabTool.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+Headless.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+InfYeild.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+KrystalDances.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+Memeus.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+NetBypass.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+NullwareHub.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+RagdollGUI.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+ReplicationUI.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+SkateBoard.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+SpinHats.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+SuperCar.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+VRScript.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+_1017xsScriptHub.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+ChatHaxV2.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+ChatBypass.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+Drip.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+Energize.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+FEHub.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+FEPose.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+KarmaV2.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+KarmaV3.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+NullwareHub2.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+Orhub.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+SpecHubP1.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+SpecHubP2.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+SpecHubV2.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+xxHub.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+Red.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+Orange.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+Yellow.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+Green.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+Blue.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+Purple.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+SeperationBar.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+Credits.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+Hubs.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+Scripts.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+Settings.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+Theme.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+Welcome.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+Main.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+ColorFrameT1.BackgroundColor3 = Color3.fromRGB(29, 255, 100)
+end)
+
+Yellow.Name = "Yellow"
+Yellow.Parent = ThemesPage
+Yellow.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Yellow.BorderSizePixel = 0
+Yellow.Position = UDim2.new(0.0233178735, 0, 0.445749134, 0)
+Yellow.Size = UDim2.new(0.449035823, 0, 0.100877889, 0)
+Yellow.Font = Enum.Font.SourceSansLight
+Yellow.Text = "Yellow"
+Yellow.TextColor3 = Color3.fromRGB(255, 255, 255)
+Yellow.TextScaled = true
+Yellow.TextSize = 14.000
+Yellow.TextWrapped = true
+Yellow.MouseButton1Down:connect(function()
+GetStarted.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+Achromatic.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+BeFurry.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+Dex.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+DarkWare.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+FEBrickCar.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+FESniper.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+FEStand.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+FencingGUI.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+GrabTool.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+Headless.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+InfYeild.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+KrystalDances.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+Memeus.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+NetBypass.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+NullwareHub.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+RagdollGUI.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+ReplicationUI.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+SkateBoard.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+SpinHats.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+SuperCar.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+VRScript.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+_1017xsScriptHub.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+ChatHaxV2.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+ChatBypass.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+Drip.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+Energize.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+FEHub.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+FEPose.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+KarmaV2.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+KarmaV3.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+NullwareHub2.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+Orhub.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+SpecHubP1.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+SpecHubP2.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+SpecHubV2.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+xxHub.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+Red.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+Orange.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+Yellow.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+Green.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+Blue.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+Purple.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+SeperationBar.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+Credits.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+Hubs.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+Scripts.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+Settings.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+Theme.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+Welcome.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+Main.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+ColorFrameT1.BackgroundColor3 = Color3.fromRGB(255, 243, 66)
+end)
+
+Orange.Name = "Orange"
+Orange.Parent = ThemesPage
+Orange.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Orange.BorderSizePixel = 0
+Orange.Position = UDim2.new(0.0216194689, 0, 0.312676042, 0)
+Orange.Size = UDim2.new(0.449035823, 0, 0.100877889, 0)
+Orange.Font = Enum.Font.SourceSansLight
+Orange.Text = "Orange"
+Orange.TextColor3 = Color3.fromRGB(255, 255, 255)
+Orange.TextScaled = true
+Orange.TextSize = 14.000
+Orange.TextWrapped = true
+Orange.MouseButton1Down:connect(function()
+GetStarted.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+Achromatic.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+BeFurry.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+Dex.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+DarkWare.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+FEBrickCar.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+FESniper.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+FEStand.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+FencingGUI.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+GrabTool.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+Headless.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+InfYeild.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+KrystalDances.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+Memeus.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+NetBypass.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+NullwareHub.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+RagdollGUI.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+ReplicationUI.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+SkateBoard.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+SpinHats.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+SuperCar.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+VRScript.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+_1017xsScriptHub.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+ChatHaxV2.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+ChatBypass.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+Drip.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+Energize.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+FEHub.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+FEPose.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+KarmaV2.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+KarmaV3.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+NullwareHub2.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+Orhub.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+SpecHubP1.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+SpecHubP2.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+SpecHubV2.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+xxHub.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+Red.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+Orange.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+Yellow.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+Green.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+Blue.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+Purple.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+SeperationBar.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+Credits.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+Hubs.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+Scripts.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+Settings.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+Theme.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+Welcome.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+Main.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+ColorFrameT1.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+end)
+
+TargetColor.Name = "TargetColor"
+TargetColor.Parent = ThemesPage
+TargetColor.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TargetColor.BackgroundTransparency = 1.000
+TargetColor.Position = UDim2.new(0.492309153, 0, 0.19691281, 0)
+TargetColor.Size = UDim2.new(0.310721159, 0, 0.0708291754, 0)
+TargetColor.ZIndex = 3
+TargetColor.Font = Enum.Font.Code
+TargetColor.Text = "Target Color:"
+TargetColor.TextColor3 = Color3.fromRGB(255, 255, 255)
+TargetColor.TextScaled = true
+TargetColor.TextSize = 14.000
+TargetColor.TextWrapped = true
+
+TargetColor2.Name = "TargetColor2"
+TargetColor2.Parent = ThemesPage
+TargetColor2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TargetColor2.BackgroundTransparency = 1.000
+TargetColor2.Position = UDim2.new(0.492309153, 0, 0.325693071, 0)
+TargetColor2.Size = UDim2.new(0.310721159, 0, 0.0708291754, 0)
+TargetColor2.ZIndex = 3
+TargetColor2.Font = Enum.Font.Code
+TargetColor2.Text = "Target Color:"
+TargetColor2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TargetColor2.TextScaled = true
+TargetColor2.TextSize = 14.000
+TargetColor2.TextWrapped = true
+
+TargetColor3.Name = "TargetColor3"
+TargetColor3.Parent = ThemesPage
+TargetColor3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TargetColor3.BackgroundTransparency = 1.000
+TargetColor3.Position = UDim2.new(0.492309153, 0, 0.458766043, 0)
+TargetColor3.Size = UDim2.new(0.310721159, 0, 0.0708291754, 0)
+TargetColor3.ZIndex = 3
+TargetColor3.Font = Enum.Font.Code
+TargetColor3.Text = "Target Color:"
+TargetColor3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TargetColor3.TextScaled = true
+TargetColor3.TextSize = 14.000
+TargetColor3.TextWrapped = true
+
+TargetColor4.Name = "TargetColor4"
+TargetColor4.Parent = ThemesPage
+TargetColor4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TargetColor4.BackgroundTransparency = 1.000
+TargetColor4.Position = UDim2.new(0.492309153, 0, 0.593985319, 0)
+TargetColor4.Size = UDim2.new(0.310721159, 0, 0.0708291754, 0)
+TargetColor4.ZIndex = 3
+TargetColor4.Font = Enum.Font.Code
+TargetColor4.Text = "Target Color:"
+TargetColor4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TargetColor4.TextScaled = true
+TargetColor4.TextSize = 14.000
+TargetColor4.TextWrapped = true
+
+TargetColor5.Name = "TargetColor5"
+TargetColor5.Parent = ThemesPage
+TargetColor5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TargetColor5.BackgroundTransparency = 1.000
+TargetColor5.Position = UDim2.new(0.492309153, 0, 0.729204655, 0)
+TargetColor5.Size = UDim2.new(0.310721159, 0, 0.0708291754, 0)
+TargetColor5.ZIndex = 3
+TargetColor5.Font = Enum.Font.Code
+TargetColor5.Text = "Target Color:"
+TargetColor5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TargetColor5.TextScaled = true
+TargetColor5.TextSize = 14.000
+TargetColor5.TextWrapped = true
+
+TargetColor6.Name = "TargetColor6"
+TargetColor6.Parent = ThemesPage
+TargetColor6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TargetColor6.BackgroundTransparency = 1.000
+TargetColor6.Position = UDim2.new(0.492309153, 0, 0.86442399, 0)
+TargetColor6.Size = UDim2.new(0.310721159, 0, 0.0708291754, 0)
+TargetColor6.ZIndex = 3
+TargetColor6.Font = Enum.Font.Code
+TargetColor6.Text = "Target Color:"
+TargetColor6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TargetColor6.TextScaled = true
+TargetColor6.TextSize = 14.000
+TargetColor6.TextWrapped = true
+
+RedF.Name = "RedF"
+RedF.Parent = ThemesPage
+RedF.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+RedF.BorderSizePixel = 0
+RedF.Position = UDim2.new(0.818181813, 0, 0.19746314, 0)
+RedF.Size = UDim2.new(0, 110, 0, 32)
+
+OrangeF.Name = "OrangeF"
+OrangeF.Parent = ThemesPage
+OrangeF.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+OrangeF.BorderSizePixel = 0
+OrangeF.Position = UDim2.new(0.818181813, 0, 0.324097097, 0)
+OrangeF.Size = UDim2.new(0, 110, 0, 32)
+
+YellowF.Name = "YellowF"
+YellowF.Parent = ThemesPage
+YellowF.BackgroundColor3 = Color3.fromRGB(255, 242, 52)
+YellowF.BorderSizePixel = 0
+YellowF.Position = UDim2.new(0.818181813, 0, 0.459316403, 0)
+YellowF.Size = UDim2.new(0, 110, 0, 32)
+
+GreenF.Name = "GreenF"
+GreenF.Parent = ThemesPage
+GreenF.BackgroundColor3 = Color3.fromRGB(0, 255, 85)
+GreenF.BorderSizePixel = 0
+GreenF.Position = UDim2.new(0.818181813, 0, 0.594535708, 0)
+GreenF.Size = UDim2.new(0, 110, 0, 32)
+
+PurpleF.Name = "PurpleF"
+PurpleF.Parent = ThemesPage
+PurpleF.BackgroundColor3 = Color3.fromRGB(162, 0, 255)
+PurpleF.BorderSizePixel = 0
+PurpleF.Position = UDim2.new(0.818181813, 0, 0.86497432, 0)
+PurpleF.Size = UDim2.new(0, 110, 0, 32)
+
+BlueF.Name = "BlueF"
+BlueF.Parent = ThemesPage
+BlueF.BackgroundColor3 = Color3.fromRGB(0, 179, 255)
+BlueF.BorderSizePixel = 0
+BlueF.Position = UDim2.new(0.818181813, 0, 0.729755044, 0)
+BlueF.Size = UDim2.new(0, 110, 0, 32)
+
+SettingsPage.Name = "SettingsPage"
+SettingsPage.Parent = ViewFrame
+SettingsPage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SettingsPage.BackgroundTransparency = 1.000
+SettingsPage.BorderSizePixel = 0
+SettingsPage.Position = UDim2.new(0, 0, 0.049563989, 0)
+SettingsPage.Size = UDim2.new(1, 0, 0.950435996, 0)
+SettingsPage.Visible = false
+
+Title_10.Name = "Title"
+Title_10.Parent = SettingsPage
+Title_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_10.BackgroundTransparency = 1.000
+Title_10.Position = UDim2.new(0.070821546, 0, 0.0480654165, 0)
+Title_10.Size = UDim2.new(0.855524063, 0, 0.148847386, 0)
+Title_10.ZIndex = 3
+Title_10.Font = Enum.Font.Code
+Title_10.Text = "Settings"
+Title_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_10.TextScaled = true
+Title_10.TextSize = 14.000
+Title_10.TextWrapped = true
+
+ONT.Name = "ONT"
+ONT.Parent = SettingsPage
+ONT.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+ONT.BorderSizePixel = 0
+ONT.Position = UDim2.new(0.0877445415, 0, 0.322655976, 0)
+ONT.Size = UDim2.new(0.0500000007, 0, 0.0500000007, 0)
+ONT.SizeConstraint = Enum.SizeConstraint.RelativeXX
+ONT.Font = Enum.Font.SourceSansLight
+ONT.Text = "ON"
+ONT.TextColor3 = Color3.fromRGB(255, 255, 255)
+ONT.TextScaled = true
+ONT.TextSize = 14.000
+ONT.TextWrapped = true
+ONT.MouseButton1Down:connect(function()
+ViewFrame.BackgroundTransparency = .35
+ONT.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+OFFT.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
+end)
+
+OFFT.Name = "OFFT"
+OFFT.Parent = SettingsPage
+OFFT.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
+OFFT.BorderSizePixel = 0
+OFFT.Position = UDim2.new(0.137331322, 0, 0.322655976, 0)
+OFFT.Size = UDim2.new(0.0500000007, 0, 0.0500000007, 0)
+OFFT.SizeConstraint = Enum.SizeConstraint.RelativeXX
+OFFT.Font = Enum.Font.SourceSansLight
+OFFT.Text = "OFF"
+OFFT.TextColor3 = Color3.fromRGB(255, 255, 255)
+OFFT.TextScaled = true
+OFFT.TextSize = 14.000
+OFFT.TextWrapped = true
+OFFT.MouseButton1Down:connect(function()
+ViewFrame.BackgroundTransparency = 0
+OFFT.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+ONT.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
+end)
+
+SettingsOption1.Name = "SettingsOption1"
+SettingsOption1.Parent = SettingsPage
+SettingsOption1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SettingsOption1.BackgroundTransparency = 1.000
+SettingsOption1.Position = UDim2.new(0.232035533, 0, 0.322655976, 0)
+SettingsOption1.Size = UDim2.new(0.595401824, 0, 0.0779120252, 0)
+SettingsOption1.ZIndex = 3
+SettingsOption1.Font = Enum.Font.Code
+SettingsOption1.Text = "-   Transparency Effects"
+SettingsOption1.TextColor3 = Color3.fromRGB(255, 255, 255)
+SettingsOption1.TextScaled = true
+SettingsOption1.TextSize = 14.000
+SettingsOption1.TextWrapped = true
+SettingsOption1.TextXAlignment = Enum.TextXAlignment.Left
+
+SettingsOption3.Name = "SettingsOption3"
+SettingsOption3.Parent = SettingsPage
+SettingsOption3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SettingsOption3.BackgroundTransparency = 1.000
+SettingsOption3.Position = UDim2.new(0.231978491, 0, 0.423533946, 0)
+SettingsOption3.Size = UDim2.new(0.675765038, 0, 0.0779120252, 0)
+SettingsOption3.ZIndex = 3
+SettingsOption3.Font = Enum.Font.Code
+SettingsOption3.Text = "-   Transparent Mode (Buggy)"
+SettingsOption3.TextColor3 = Color3.fromRGB(255, 255, 255)
+SettingsOption3.TextScaled = true
+SettingsOption3.TextSize = 14.000
+SettingsOption3.TextWrapped = true
+SettingsOption3.TextXAlignment = Enum.TextXAlignment.Left
+
+OFFSM.Name = "OFFSM"
+OFFSM.Parent = SettingsPage
+OFFSM.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+OFFSM.BorderSizePixel = 0
+OFFSM.Position = UDim2.new(0.138708726, 0, 0.423533916, 0)
+OFFSM.Size = UDim2.new(0.0500000007, 0, 0.0500000007, 0)
+OFFSM.SizeConstraint = Enum.SizeConstraint.RelativeXX
+OFFSM.Font = Enum.Font.SourceSansLight
+OFFSM.Text = "OFF"
+OFFSM.TextColor3 = Color3.fromRGB(255, 255, 255)
+OFFSM.TextScaled = true
+OFFSM.TextSize = 14.000
+OFFSM.TextWrapped = true
+OFFSM.MouseButton1Down:connect(function()
+ViewFrame.BackgroundTransparency = .35
+OFFSM.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+ONSM.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
+end)
+
+ONSM.Name = "ONSM"
+ONSM.Parent = SettingsPage
+ONSM.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
+ONSM.BorderSizePixel = 0
+ONSM.Position = UDim2.new(0.0891219527, 0, 0.423533916, 0)
+ONSM.Size = UDim2.new(0.0500000007, 0, 0.0500000007, 0)
+ONSM.SizeConstraint = Enum.SizeConstraint.RelativeXX
+ONSM.Font = Enum.Font.SourceSansLight
+ONSM.Text = "ON"
+ONSM.TextColor3 = Color3.fromRGB(255, 255, 255)
+ONSM.TextScaled = true
+ONSM.TextSize = 14.000
+ONSM.TextWrapped = true
+ONSM.MouseButton1Down:connect(function()
+ViewFrame.BackgroundTransparency = 1
+ONSM.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+OFFSM.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
+end)
+
+SettingsOption4.Name = "SettingsOption4"
+SettingsOption4.Parent = SettingsPage
+SettingsOption4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SettingsOption4.BackgroundTransparency = 1.000
+SettingsOption4.Position = UDim2.new(0.230601087, 0, 0.530850828, 0)
+SettingsOption4.Size = UDim2.new(0.675765038, 0, 0.0779120252, 0)
+SettingsOption4.ZIndex = 3
+SettingsOption4.Font = Enum.Font.Code
+SettingsOption4.Text = "-   Spec:R watermark/toggle"
+SettingsOption4.TextColor3 = Color3.fromRGB(255, 255, 255)
+SettingsOption4.TextScaled = true
+SettingsOption4.TextSize = 14.000
+SettingsOption4.TextWrapped = true
+SettingsOption4.TextXAlignment = Enum.TextXAlignment.Left
+
+OFFTT.Name = "OFFTT"
+OFFTT.Parent = SettingsPage
+OFFTT.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
+OFFTT.BorderSizePixel = 0
+OFFTT.Position = UDim2.new(0.137331322, 0, 0.530850828, 0)
+OFFTT.Size = UDim2.new(0.0500000007, 0, 0.0500000007, 0)
+OFFTT.SizeConstraint = Enum.SizeConstraint.RelativeXX
+OFFTT.Font = Enum.Font.SourceSansLight
+OFFTT.Text = "OFF"
+OFFTT.TextColor3 = Color3.fromRGB(255, 255, 255)
+OFFTT.TextScaled = true
+OFFTT.TextSize = 14.000
+OFFTT.TextWrapped = true
+OFFTT.MouseButton1Down:connect(function()
+Toggle.Visible = false
+OFFTT.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+ONTT.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
+end)
+
+ONTT.Name = "ONTT"
+ONTT.Parent = SettingsPage
+ONTT.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+ONTT.BorderSizePixel = 0
+ONTT.Position = UDim2.new(0.0877445489, 0, 0.530850828, 0)
+ONTT.Size = UDim2.new(0.0500000007, 0, 0.0500000007, 0)
+ONTT.SizeConstraint = Enum.SizeConstraint.RelativeXX
+ONTT.Font = Enum.Font.SourceSansLight
+ONTT.Text = "ON"
+ONTT.TextColor3 = Color3.fromRGB(255, 255, 255)
+ONTT.TextScaled = true
+ONTT.TextSize = 14.000
+ONTT.TextWrapped = true
+ONTT.MouseButton1Down:connect(function()
+Toggle.Visible = true
+ONTT.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+OFFTT.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
+end)
+
+
+SettingsOption5.Name = "SettingsOption5"
+SettingsOption5.Parent = SettingsPage
+SettingsOption5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SettingsOption5.BackgroundTransparency = 1.000
+SettingsOption5.Position = UDim2.new(0.231978491, 0, 0.640314043, 0)
+SettingsOption5.Size = UDim2.new(0.675765038, 0, 0.0779120252, 0)
+SettingsOption5.ZIndex = 3
+SettingsOption5.Font = Enum.Font.Code
+SettingsOption5.Text = "-   White-Out Mode"
+SettingsOption5.TextColor3 = Color3.fromRGB(255, 255, 255)
+SettingsOption5.TextScaled = true
+SettingsOption5.TextSize = 14.000
+SettingsOption5.TextWrapped = true
+SettingsOption5.TextXAlignment = Enum.TextXAlignment.Left
+
+OFFWOM.Name = "OFFWOM"
+OFFWOM.Parent = SettingsPage
+OFFWOM.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+OFFWOM.BorderSizePixel = 0
+OFFWOM.Position = UDim2.new(0.138708726, 0, 0.640314043, 0)
+OFFWOM.Size = UDim2.new(0.0500000007, 0, 0.0500000007, 0)
+OFFWOM.SizeConstraint = Enum.SizeConstraint.RelativeXX
+OFFWOM.Font = Enum.Font.SourceSansLight
+OFFWOM.Text = "OFF"
+OFFWOM.TextColor3 = Color3.fromRGB(255, 255, 255)
+OFFWOM.TextScaled = true
+OFFWOM.TextSize = 14.000
+OFFWOM.TextWrapped = true
+OFFWOM.MouseButton1Down:connect(function()
+GetStarted.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Achromatic.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+BeFurry.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Dex.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+DarkWare.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+FEBrickCar.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+FESniper.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+FEStand.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+FencingGUI.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+GrabTool.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Headless.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+InfYeild.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+KrystalDances.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Memeus.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+NetBypass.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+NullwareHub.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+RagdollGUI.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+ReplicationUI.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+SkateBoard.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+SpinHats.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+SuperCar.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+VRScript.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+_1017xsScriptHub.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+ChatHaxV2.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+ChatBypass.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Drip.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Energize.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+FEHub.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+FEPose.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+KarmaV2.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+KarmaV3.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+NullwareHub2.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Orhub.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+SpecHubP1.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+SpecHubP2.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+SpecHubV2.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+xxHub.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Red.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Orange.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Yellow.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Green.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Blue.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Purple.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+SeperationBar.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Credits.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Hubs.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Scripts.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Settings.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Theme.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Welcome.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+Main.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+ColorFrameT1.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+OFFWOM.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+ONWOM.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
+end)
+
+ONWOM.Name = "ONWOM"
+ONWOM.Parent = SettingsPage
+ONWOM.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
+ONWOM.BorderSizePixel = 0
+ONWOM.Position = UDim2.new(0.0891219601, 0, 0.640314043, 0)
+ONWOM.Size = UDim2.new(0.0500000007, 0, 0.0500000007, 0)
+ONWOM.SizeConstraint = Enum.SizeConstraint.RelativeXX
+ONWOM.Font = Enum.Font.SourceSansLight
+ONWOM.Text = "ON"
+ONWOM.TextColor3 = Color3.fromRGB(255, 255, 255)
+ONWOM.TextScaled = true
+ONWOM.TextSize = 14.000
+ONWOM.TextWrapped = true
+ONWOM.MouseButton1Down:connect(function()
+GetStarted.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+Achromatic.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+BeFurry.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+Dex.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+DarkWare.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+FEBrickCar.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+FESniper.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+FEStand.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+FencingGUI.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+GrabTool.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+Headless.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+InfYeild.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+KrystalDances.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+Memeus.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+NetBypass.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+NullwareHub.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+RagdollGUI.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+ReplicationUI.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+SkateBoard.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+SpinHats.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+SuperCar.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+VRScript.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+_1017xsScriptHub.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+ChatHaxV2.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+ChatBypass.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+Drip.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+Energize.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+FEHub.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+FEPose.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+KarmaV2.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+KarmaV3.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+NullwareHub2.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+Orhub.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+SpecHubP1.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+SpecHubP2.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+SpecHubV2.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+xxHub.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+Red.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+Orange.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+Yellow.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+Green.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+Blue.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+Purple.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+SeperationBar.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+Credits.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+Hubs.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+Scripts.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+Settings.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+Theme.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+Welcome.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+Main.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+ColorFrameT1.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+ONWOM.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+OFFWOM.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
+end)
+
+SettingsOption6.Name = "SettingsOption6"
+SettingsOption6.Parent = SettingsPage
+SettingsOption6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SettingsOption6.BackgroundTransparency = 1.000
+SettingsOption6.Position = UDim2.new(0.23335585, 0, 0.758362651, 0)
+SettingsOption6.Size = UDim2.new(0.67301017, 0, 0.0779120252, 0)
+SettingsOption6.ZIndex = 3
+SettingsOption6.Font = Enum.Font.Code
+SettingsOption6.Text = "-   Close GUI (Deletes GUI)"
+SettingsOption6.TextColor3 = Color3.fromRGB(255, 255, 255)
+SettingsOption6.TextScaled = true
+SettingsOption6.TextSize = 14.000
+SettingsOption6.TextWrapped = true
+SettingsOption6.TextXAlignment = Enum.TextXAlignment.Left
+
+FCLOSE.Name = "FCLOSE"
+FCLOSE.Parent = SettingsPage
+FCLOSE.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+FCLOSE.BorderSizePixel = 0
+FCLOSE.Position = UDim2.new(0.0891219527, 0, 0.758362651, 0)
+FCLOSE.Size = UDim2.new(0.100000001, 0, 0.0500000007, 0)
+FCLOSE.SizeConstraint = Enum.SizeConstraint.RelativeXX
+FCLOSE.Font = Enum.Font.SourceSansLight
+FCLOSE.Text = "CLOSE"
+FCLOSE.TextColor3 = Color3.fromRGB(255, 255, 255)
+FCLOSE.TextScaled = true
+FCLOSE.TextSize = 14.000
+FCLOSE.TextWrapped = true
+FCLOSE.MouseButton1Down:connect(function()
+SpecR.Enabled = false
+end)
+
+
+CreditsPage.Name = "CreditsPage"
+CreditsPage.Parent = ViewFrame
+CreditsPage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CreditsPage.BackgroundTransparency = 1.000
+CreditsPage.BorderSizePixel = 0
+CreditsPage.Position = UDim2.new(0, 0, 0.049563989, 0)
+CreditsPage.Size = UDim2.new(1, 0, 0.950435996, 0)
+CreditsPage.Visible = false
+
+Credits1.Name = "Credits1"
+Credits1.Parent = CreditsPage
+Credits1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Credits1.BackgroundTransparency = 1.000
+Credits1.Position = UDim2.new(0.070821546, 0, 0.0480654165, 0)
+Credits1.Size = UDim2.new(0.855524063, 0, 0.105213128, 0)
+Credits1.ZIndex = 3
+Credits1.Font = Enum.Font.Code
+Credits1.Text = "Credits"
+Credits1.TextColor3 = Color3.fromRGB(255, 255, 255)
+Credits1.TextScaled = true
+Credits1.TextSize = 14.000
+Credits1.TextWrapped = true
+
+cREDIT2.Name = "cREDIT2"
+cREDIT2.Parent = CreditsPage
+cREDIT2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+cREDIT2.BackgroundTransparency = 1.000
+cREDIT2.Position = UDim2.new(0.070821546, 0, 0.204748079, 0)
+cREDIT2.Size = UDim2.new(0.855524063, 0, 0.105213128, 0)
+cREDIT2.ZIndex = 3
+cREDIT2.Font = Enum.Font.Code
+cREDIT2.Text = "Spec:R was made by spec#9001"
+cREDIT2.TextColor3 = Color3.fromRGB(255, 255, 255)
+cREDIT2.TextScaled = true
+cREDIT2.TextSize = 14.000
+cREDIT2.TextWrapped = true
+
+Title_11.Name = "Title"
+Title_11.Parent = CreditsPage
+Title_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_11.BackgroundTransparency = 1.000
+Title_11.Position = UDim2.new(0.070821546, 0, 0.79713732, 0)
+Title_11.Size = UDim2.new(0.855524063, 0, 0.145993456, 0)
+Title_11.ZIndex = 3
+Title_11.Font = Enum.Font.Code
+Title_11.Text = "you can visit my channel by going to my roblox profile and droping a follow if you want and then you will see the youtube icon by my bio (or somewhere on my profile) and you can visit it."
+Title_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_11.TextScaled = true
+Title_11.TextSize = 14.000
+Title_11.TextWrapped = true
+
+Title_12.Name = "Title"
+Title_12.Parent = CreditsPage
+Title_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_12.BackgroundTransparency = 1.000
+Title_12.Position = UDim2.new(0.070821546, 0, 0.66621083, 0)
+Title_12.Size = UDim2.new(0.855524063, 0, 0.109505795, 0)
+Title_12.ZIndex = 3
+Title_12.Font = Enum.Font.Code
+Title_12.Text = "Roblox Profile: specowos"
+Title_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_12.TextScaled = true
+Title_12.TextSize = 14.000
+Title_12.TextWrapped = true
+
+Title_13.Name = "Title"
+Title_13.Parent = CreditsPage
+Title_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_13.BackgroundTransparency = 1.000
+Title_13.Position = UDim2.new(0.070821546, 0, 0.342113823, 0)
+Title_13.Size = UDim2.new(0.855524063, 0, 0.0665790439, 0)
+Title_13.ZIndex = 3
+Title_13.Font = Enum.Font.Code
+Title_13.Text = "you can donate by buying: https://www.roblox.com/catalog/6234792641/Donation"
+Title_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_13.TextScaled = true
+Title_13.TextSize = 14.000
+Title_13.TextWrapped = true
+
+Title_14.Name = "Title"
+Title_14.Parent = CreditsPage
+Title_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_14.BackgroundTransparency = 1.000
+Title_14.Position = UDim2.new(0.070821546, 0, 0.438698947, 0)
+Title_14.Size = UDim2.new(0.855524063, 0, 0.049408339, 0)
+Title_14.ZIndex = 3
+Title_14.Font = Enum.Font.Code
+Title_14.Text = "discord: spec#9001"
+Title_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_14.TextScaled = true
+Title_14.TextSize = 14.000
+Title_14.TextWrapped = true
+
+Title_15.Name = "Title"
+Title_15.Parent = CreditsPage
+Title_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_15.BackgroundTransparency = 1.000
+Title_15.Position = UDim2.new(0.070821546, 0, 0.488064736, 0)
+Title_15.Size = UDim2.new(0.855524063, 0, 0.0515546761, 0)
+Title_15.ZIndex = 3
+Title_15.Font = Enum.Font.Code
+Title_15.Text = "twitter: scotsmen0204"
+Title_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_15.TextScaled = true
+Title_15.TextSize = 14.000
+Title_15.TextWrapped = true
+
+Title_16.Name = "Title"
+Title_16.Parent = CreditsPage
+Title_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_16.BackgroundTransparency = 1.000
+Title_16.Position = UDim2.new(0.070821546, 0, 0.582503617, 0)
+Title_16.Size = UDim2.new(0.855524063, 0, 0.0537010171, 0)
+Title_16.ZIndex = 3
+Title_16.Font = Enum.Font.Code
+Title_16.Text = "contact me for more stuff and suggestions"
+Title_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_16.TextScaled = true
+Title_16.TextSize = 14.000
+Title_16.TextWrapped = true
+
+HubName.Name = "HubName"
+HubName.Parent = Main
+HubName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HubName.BackgroundTransparency = 1.000
+HubName.Position = UDim2.new(0.0113314446, 0, 0.0699998066, 0)
+HubName.Size = UDim2.new(0.0660056546, 0, 0.760000646, 0)
+HubName.Font = Enum.Font.Code
+HubName.Text = "Spec:R"
+HubName.TextColor3 = Color3.fromRGB(255, 255, 255)
+HubName.TextScaled = true
+HubName.TextSize = 14.000
+HubName.TextWrapped = true
+HubName.TextXAlignment = Enum.TextXAlignment.Left
+
+Logo.Name = "Logo"
+Logo.Parent = SpecR
+Logo.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Logo.BackgroundTransparency = 1.000
+Logo.Position = UDim2.new(-0.000841699482, 0, -0.0467422083, 0)
+Logo.Size = UDim2.new(1, 0, 1.0467422, 0)
+
+Backgorund.Name = "Backgorund"
+Backgorund.Parent = Logo
+Backgorund.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Backgorund.BackgroundTransparency = 1.000
+Backgorund.Position = UDim2.new(0.000841766596, 0, -0.00113087893, 0)
+Backgorund.Size = UDim2.new(1, 0, 1, 0)
+Backgorund.ZIndex = 4
+Backgorund.Image = "rbxassetid://6233387195"
+
+LogoText.Name = "LogoText"
+LogoText.Parent = Logo
+LogoText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LogoText.BackgroundTransparency = 1.000
+LogoText.Position = UDim2.new(0.000841766596, 0, -0.00113087893, 0)
+LogoText.Size = UDim2.new(1, 0, 1, 0)
+LogoText.ZIndex = 6
+LogoText.Image = "rbxassetid://6233391195"
+
+Particles.Name = "Particles"
+Particles.Parent = Logo
+Particles.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Particles.BackgroundTransparency = 1.000
+Particles.Position = UDim2.new(0.000841766596, 0, -0.00113087893, 0)
+Particles.Size = UDim2.new(1, 0, 1, 0)
+Particles.ZIndex = 5
+Particles.Image = "rbxassetid://6233392329"
+
+Toggle.Name = "Toggle"
+Toggle.Parent = SpecR
+Toggle.BackgroundColor3 = Color3.fromRGB(7, 7, 7)
+Toggle.BackgroundTransparency = 0.500
+Toggle.BorderSizePixel = 0
+Toggle.Position = UDim2.new(0.0106429048, 0, 0.901452422, 0)
+Toggle.Size = UDim2.new(0.0500000007, 0, 0.0500000007, 0)
+Toggle.SizeConstraint = Enum.SizeConstraint.RelativeXX
+
+
+ColorFrameT1.Name = "ColorFrameT1"
+ColorFrameT1.Parent = Toggle
+ColorFrameT1.BackgroundColor3 = Color3.fromRGB(248, 0, 66)
+ColorFrameT1.BorderSizePixel = 0
+ColorFrameT1.Position = UDim2.new(0.0841750801, 0, 0.101010099, 0)
+ColorFrameT1.Size = UDim2.new(0.800000012, 0, 0.0700000003, 0)
+ColorFrameT1.SizeConstraint = Enum.SizeConstraint.RelativeXX
+
+ToggleButton1.Name = "ToggleButton1"
+ToggleButton1.Parent = Toggle
+ToggleButton1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ToggleButton1.BackgroundTransparency = 1.000
+ToggleButton1.Position = UDim2.new(0.0841750503, 0, 0.171010435, 0)
+ToggleButton1.Size = UDim2.new(0.800000012, 0, 0.713164628, 0)
+ToggleButton1.SizeConstraint = Enum.SizeConstraint.RelativeXX
+ToggleButton1.Font = Enum.Font.Code
+ToggleButton1.Text = "S"
+ToggleButton1.TextColor3 = Color3.fromRGB(255, 255, 255)
+ToggleButton1.TextScaled = true
+ToggleButton1.TextSize = 14.000
+ToggleButton1.TextWrapped = true
+ToggleButton1.MouseButton1Down:connect(function()
+if Main.Visible == true then
+Main.Visible = false
+else
+Main.Visible = true
+end
+end)
+
+wait(1)
+
+Backgorund:TweenPosition(UDim2.new(0,0,1,0),"InOut","Sine",0.5)
+Particles:TweenPosition(UDim2.new(0,0,-1,0),"InOut","Sine",0.8)
+LogoText:TweenPosition(UDim2.new(0,0,-1,0),"InOut","Sine",0.5)
+wait(0.8)
+Logo.Visible = false
